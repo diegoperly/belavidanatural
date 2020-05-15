@@ -1,0 +1,25 @@
+.label{
+    text-transform:capitalize;
+    color: #727273;
+}
+.profile::before, .label::before, .buttonLink::before{
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAMAAACzvE1FAAAATlBMVEUAAAA/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ/CfzueAAAAGXRSTlMAtsWJMukH9uTy3tCCdmBdSykoHxKUk2djXS1jVQAAAHpJREFUGNN1kEkSxSAIBQE1aubpD9z/okkhaGWR3nX7NgjCTDHSDEaHLGCnwbHidJAt5DLxXPESthY2EJJ5gsJiYQFlKj5BZXeIbod3/IjDgKNXPZAVPOQ5cyXcozOYSTntsnZf/ww90DMQwC81TX/5j/VDIcZA3/W2C914ELMSdz6bAAAAAElFTkSuQmCC');
+}
+@media only screen and (max-width: 639px) {
+    .label{
+        font-size: 0;
+        display: block;
+    }
+    .buttonLink::before{
+        margin: 0;
+    }
+    .label::before{
+        display: none;
+    }
+}

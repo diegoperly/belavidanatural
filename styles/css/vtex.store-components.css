@@ -1,0 +1,93 @@
+.notificationBarContainer {
+  background-color: #E6F1E6;
+  color: #03034E;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+.newsletter{
+  background-color:#3f419f;
+  margin:0 auto;
+}
+.newsletter .container {
+  padding:10px;
+}
+.searchBarContainer{
+  max-width:660px !important;
+}
+.searchBarIcon svg{
+  fill: #3f419f;
+  color: #3f419f;
+}
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+.listPriceLabel{
+  padding:0;
+  margin:10px 0 0;
+}
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+.price_sellingPrice{
+  color:#42439B;
+}
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+.specificationsTableContainer{
+  padding: 0;
+}
+
+.imageElement--productImageBanner{
+  display: block;
+  margin: 0 auto;
+}
+
+:global(.vtex-store-header-2-x-headerRowContainer--josiel__ebit){
+  display: none;
+}
+
+:global(.render-route-store-orderplaced) :global(.vtex-store-header-2-x-headerRowContainer--josiel__ebit){
+  display: block;
+}
+
+@media only screen and (min-width: 640px) {
+  .label {
+    font-size: 30px;
+  }
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}

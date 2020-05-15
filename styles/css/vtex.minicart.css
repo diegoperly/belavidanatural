@@ -1,0 +1,15 @@
+.container svg{
+    color: #3f419f;
+    fill: #3f419f;
+    width: 20px;
+    height: 20px;
+}
+.badge{
+    position: unset;
+    display: inline-block;
+    vertical-align: top;
+    background: none;
+    font-size: .9rem;
+    color: #727273;
+    margin-left: 5px;
+}

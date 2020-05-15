@@ -1,0 +1,63 @@
+.menuContainer--mainMenu .menuItem .styledLinkContainer{
+    width:90px;
+}
+.menuContainer--mainMenu .menuItem:last-child .styledLinkContainer:global(.mh6):global(.pv5){
+    min-height: 64px;
+}
+.menuContainer--mainMenu .menuItem .styledLinkContainer .styledLink :global(.nowrap){
+    white-space:initial;
+    text-align:center;
+}
+.menuContainer--mainMenu .menuItem:first-child .styledLinkContainer .styledLink :global(.nowrap){
+    text-align:left;
+}
+.submenu {
+    justify-content: left;
+    width: 300px;
+}
+.submenu .styledLinkContainer,
+.submenu .menuContainerNav,
+.menuContainer--mainMenu .submenu .menuItem .styledLinkContainer,
+.menuContainerNav--category-menu-mobile,
+.menuContainerNav--category-menu-mobile .menuContainerNav{
+    width:100%;
+}
+.menuContainer--menuFooter .styledLinkContainer{
+    margin:0;
+}
+.menuContainerNav--category-menu-mobile .menuItem{
+    border-top:1px solid #ccc;
+    padding:5px 0;
+}
+.menuContainer--mainMenu .submenuContainer :global(.b--muted-3){
+    padding:0;
+    border:0;
+}
+.menuContainer--mainMenu > .menuItem:first-child{
+    min-width: 160px;
+}
+.menuContainer--mainMenu > .menuItem:first-child::before{
+    content: "";
+    display: inline-block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 18px 5px 0 0;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAOVBMVEUAAAA/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ/R6jJgAAAAEnRSTlMAwDC1UxLxrIxAIejY1cdhQwEP5BuhAAAAlklEQVQoz4WTWQ7DIAxETcFs2X3/w1aC1kEOyrwvxMjgZUw3HHJyLuXA9KR4UXwxYu2i4uuohiiGGEg5ZMKhsTLlF1/jXI79f83K4ltF7bicn4FzaZdFg/eLBq79H87S2dzAJh22advk85ucKb3JiZw0VqYBXqXhgAweB6mBwkBbQFPBSMBAgR2AmYAVgZHBGoAlAiv4BcWmKA3a3nTzAAAAAElFTkSuQmCC');
+}
+.menuContainer--mainMenu > .menuItem:hover > .styledLinkContainer > a{
+    color: #3f419f;
+}
+.submenu .menuContainerNav{
+    border: 1px solid #f0f0f0;
+}
+.submenu .menuContainerNav .menuItem{
+    padding: .5rem 0;
+}
+.menuContainerNav .menuItem a:hover{
+    color: #3f419f;
+}
+.menuContainer--mainMenu .menuItem:nth-last-child(-n+3) .submenuContainer > div{
+    left: auto;
+    right: 0;
+}

@@ -1,0 +1,533 @@
+{
+  "vtex.menu@2.x:menu#category-menu-mobile": {
+    "children": [
+      "menu-item#alimentos-naturais-mobile",
+      "menu-item#argila-medicinal-mobile",
+      "menu-item#cosmeticos-naturais-mobile",
+      "menu-item#difusor-de-aroma-mobile",
+      "menu-item#oleos-essenciais-mobile",
+      "menu-item#oleos-vegetais-mobile",
+      "menu-item#pedras-cristais-mobile",
+      "menu-item#marcas"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-mobile"
+    }
+  },
+  "menu-item#alimentos-naturais-mobile": {
+    "props": {
+      "id": "menu-item-alimentos-naturais-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-naturais",
+        "noFollow": false,
+        "tagTitle": "Alimentos Naturais",
+        "text": "Alimentos Naturais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#alimentos-naturais-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#alimentos-naturais-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#alimentos-naturais"
+    ]
+  },
+  "menu-item#argila-medicinal-mobile": {
+    "props": {
+      "id": "menu-item-argila-medicinal-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/argila-medicinal",
+        "noFollow": false,
+        "tagTitle": "Argila Medicinal",
+        "text": "Argila Medicinal"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#argila-medicinal-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#argila-medicinal-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#argila-medicinal"
+    ]
+  },
+  "menu-item#cosmeticos-naturais-mobile": {
+    "props": {
+      "id": "menu-item-cosmeticos-naturais-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cosmeticos-naturais",
+        "noFollow": false,
+        "tagTitle": "Cosméticos Naturais",
+        "text": "Cosméticos Naturais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#cosmeticos-naturais-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#cosmeticos-naturais-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#cosmeticos-naturais"
+    ]
+  },
+  "menu-item#difusor-de-aroma-mobile": {
+    "props": {
+      "id": "menu-item-difusor-de-aroma-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/difusor-de-aroma",
+        "noFollow": false,
+        "tagTitle": "Difusor de Aroma",
+        "text": "Difusor de Aroma"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#difusor-de-aroma-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#difusor-de-aroma-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#difusor-de-aroma"
+    ]
+  },
+  "menu-item#oleos-essenciais-mobile": {
+    "props": {
+      "id": "menu-item-oleos-essenciais-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oleos-essenciais",
+        "noFollow": false,
+        "tagTitle": "Óleos Essenciais",
+        "text": "Óleos Essenciais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#oleos-essenciais-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#oleos-essenciais-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#oleos-essenciais"
+    ]
+  },
+  "menu-item#oleos-vegetais-mobile": {
+    "props": {
+      "id": "menu-item-oleos-vegetais-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oleos-vegetais",
+        "noFollow": false,
+        "tagTitle": "Óleos Vegetais",
+        "text": "Óleos Vegetais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#oleos-vegetais-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#oleos-vegetais-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#oleos-vegetais"
+    ]
+  },
+  "menu-item#pedras-cristais-mobile": {
+    "props": {
+      "id": "menu-item-pedras-cristais-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pedras-e-cristais",
+        "noFollow": false,
+        "tagTitle": "Pedras e Cristais",
+        "text": "Pedras e Cristais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#pedras-cristais-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#pedras-cristais-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#pedras-cristais"
+    ]
+  },
+  "menu-item#marcas": {
+    "props": {
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/marcas",
+        "noFollow": false,
+        "tagTitle": "Marcas",
+        "text": "Marcas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#marcas"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#marcas": {
+    "children": [
+      "vtex.menu@2.x:menu#marcas"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      "menu-item#todos-departamentos",
+      "menu-item#alimentos-naturais",
+      "menu-item#argila-medicinal",
+      "menu-item#cosmeticos-naturais",
+      "menu-item#difusor-de-aroma",
+      "menu-item#oleos-essenciais",
+      "menu-item#oleos-vegetais",
+      "menu-item#pedras-cristais",
+      "menu-item#marcas"
+    ],
+    "props": {
+      "blockClass": "mainMenu"
+    }
+  },
+  "menu-item#todos-departamentos": {
+    "props": {
+      "id": "menu-item-todos-departamentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "TODOS OS DEPARTAMENTOS",
+        "text": "TODOS OS DEPARTAMENTOS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#todos-departamentos"
+    ]
+  },
+  "vtex.menu@2.x:submenu#todos-departamentos": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#todos-departamentos"
+    ]
+  },
+  "vtex.menu@2.x:menu#todos-departamentos": {
+    "children": [],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#alimentos-naturais": {
+    "props": {
+      "id": "menu-item-alimentos-naturais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/alimentos-naturais",
+        "noFollow": true,
+        "tagTitle": "Alimentos Naturais",
+        "text": "Alimentos Naturais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#alimentos-naturais"
+    ]
+  },
+  "vtex.menu@2.x:submenu#alimentos-naturais": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#alimentos-naturais"
+    ]
+  },
+  "vtex.menu@2.x:menu#alimentos-naturais": {
+    "children": [],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  
+  "menu-item#argila-medicinal": {
+    "props": {
+      "id": "menu-item-argila-medicinal",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/argila-medicinal",
+        "noFollow": true,
+        "tagTitle": "Argila Medicinal",
+        "text": "Argila Medicinal"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#argila-medicinal"
+    ]
+  },
+  "vtex.menu@2.x:submenu#argila-medicinal": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#argila-medicinal"
+    ]
+  },
+  "vtex.menu@2.x:menu#argila-medicinal": {
+    "children": [],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#cosmeticos-naturais": {
+    "props": {
+      "id": "menu-item-cosmeticos-naturais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cosmeticos-naturais",
+        "noFollow": true,
+        "tagTitle": "Cosméticos Naturais",
+        "text": "Cosméticos Naturais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#cosmeticos-naturais"
+    ]
+  },
+  "vtex.menu@2.x:submenu#cosmeticos-naturais": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#cosmeticos-naturais"
+    ]
+  },
+  "vtex.menu@2.x:menu#cosmeticos-naturais": {
+    "children": [],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  
+  "menu-item#difusor-de-aroma": {
+    "props": {
+      "id": "menu-item-difusor-de-aroma",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/difusor-de-aroma",
+        "noFollow": true,
+        "tagTitle": "Difusor de Aroma",
+        "text": "Difusor de Aroma"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#difusor-de-aroma"
+    ]
+  },
+  "vtex.menu@2.x:submenu#difusor-de-aroma": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#difusor-de-aroma"
+    ]
+  },
+  "vtex.menu@2.x:menu#difusor-de-aroma": {
+    "children": [],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+
+  "menu-item#oleos-essenciais": {
+    "props": {
+      "id": "menu-item-oleos-essenciais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oleos-essenciais",
+        "noFollow": true,
+        "tagTitle": "Óleos Essenciais",
+        "text": "Óleos Essenciais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#oleos-essenciais"
+    ]
+  },
+  "vtex.menu@2.x:submenu#oleos-essenciais": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#oleos-essenciais"
+    ]
+  },
+  "vtex.menu@2.x:menu#oleos-essenciais": {
+    "children": [],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  
+  "menu-item#oleos-vegetais": {
+    "props": {
+      "id": "menu-item-oleos-vegetais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oleos-vegetais",
+        "noFollow": true,
+        "tagTitle": "Óleos Vegetais",
+        "text": "Óleos Vegetais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#oleos-vegetais"
+    ]
+  },
+  "vtex.menu@2.x:submenu#oleos-vegetais": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#oleos-vegetais"
+    ]
+  },
+  "vtex.menu@2.x:menu#oleos-vegetais": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+
+  "menu-item#pedras-cristais": {
+    "props": {
+      "id": "menu-item-pedras-cristais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pedras-e-cristais",
+        "noFollow": true,
+        "tagTitle": "Pedras e Cristais",
+        "text": "Pedras e Cristais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#pedras-cristais"
+    ]
+  },
+  "vtex.menu@2.x:submenu#pedras-cristais": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#pedras-cristais"
+    ]
+  },
+  "vtex.menu@2.x:menu#pedras-cristais": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+
+  "menu-item#marcas": {
+    "props": {
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/marcas",
+        "noFollow": true,
+        "tagTitle": "Marcas",
+        "text": "Marcas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#marcas"
+    ]
+  },
+  "vtex.menu@2.x:submenu#marcas": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#marcas"
+    ]
+  },
+  "vtex.menu@2.x:menu#marcas": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": []
+  }
+}

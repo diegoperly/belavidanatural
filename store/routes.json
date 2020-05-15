@@ -1,0 +1,32 @@
+{
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+  "store.custom#politica-de-frete": {
+    "path": "/politica-de-frete"
+  },
+  "store.custom#seguranca": {
+    "path": "/seguranca"
+  },
+  "store.custom#troca-e-devolucao": {
+    "path": "/troca-e-devolucao"
+  },
+  "store.custom#fale-conosco": {
+    "path": "/fale-conosco"
+  },
+  "store.custom#listas-prontas": {
+    "path": "/listas-prontas"
+  },
+  "store.custom#politica": {
+    "path": "/politica"
+  },
+  "store.custom#selos": {
+    "path": "/selos"
+  },
+  "store.custom#duvidas": {
+    "path": "/duvidas"
+  },
+  "store.custom#institucional": {
+    "path": "/institucional"
+  }
+}

@@ -1,0 +1,42 @@
+.flexRow--deals {
+  padding: 14px 0px;
+}
+.flexRow--right{
+  float:right;
+  margin:15px;
+}
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+.flexColChild{
+  height:auto !important;
+}
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+.flexColChild--productCountCol{
+  text-transform:lowercase;
+}
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexCol--switcherMobileCol {
+  width: 20%;
+}

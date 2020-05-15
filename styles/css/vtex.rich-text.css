@@ -1,0 +1,150 @@
+.container--deals {
+  color: #5b5b5b;
+  text-align: center;
+  justify-content: center;
+  text-transform:uppercase;
+}
+.paragraph--deals a{
+  color: inherit;
+}
+.paragraph--deals a:hover{
+  color: #4447a2;
+}
+.paragraph{
+  line-height:1;
+}
+.container--deals .paragraph {
+  margin:6px;
+  min-width:150px;
+}
+.paragraph--notification-bar{
+  line-height:0;
+}
+.container--notification-bar{
+  display:block;
+  width:100%;
+  text-align:center;
+}
+.container--link {
+  justify-content: center;
+}
+.image--footer-img{
+  float:left;
+  margin: 10px 5px 0 0;
+}
+.strong--footer-img{
+  margin:5px 0;
+  display:inline-block;
+}
+.link--footer-img{
+  color:#828282;
+  text-decoration:none;
+}
+.container--question {
+  justify-content: center;
+}
+.paragraph--footer-img {
+  width: 280px;
+}
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034E;
+}
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+.container--text-footer{
+  border-top:1px solid #ccc;
+}
+.paragraph--text-footer{
+  line-height:1.5;
+}
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.paragraph--footer-security img{
+  display: inline-block;
+  max-width: 150px;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+.paragraph--bt-whatsapp a{
+  width: 42px;
+  height: 42px;
+  bottom: 1rem;
+  right: 1rem;
+  position: fixed;
+  z-index: 99999;
+}
+.paragraph--notification-bar a{
+  color: inherit;
+}
+
+.container--institucional-title
+{
+  justify-content: center;
+}
+
+/* .paragraph--institucional-text
+{
+  text-align: center;
+} */
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+
+  .paragraph--bt-whatsapp a{
+    width: 80px;
+    height: 80px;
+    bottom: 50px;
+    right: 25px;
+  }
+}

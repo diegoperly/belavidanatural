@@ -1,0 +1,23 @@
+{
+  "store.custom#fale-conosco": {
+    "blocks": [
+      "flex-layout.row#sandbox"
+    ]
+  },
+
+  "flex-layout.row#sandbox": {
+    "children": [
+      "sandbox#sandbox-content"
+    ]
+  },
+
+  "sandbox#sandbox-content": {
+    "props": {
+      "width": "100%",
+      "min-height": "1100px",
+      "initialContent": "<iframe src='https://docs.google.com/forms/d/e/1FAIpQLSdOSsYm3eC2UFbsauGY8zrCE4S4qjp5cBDxEQm9KkgJIfXsfQ/viewform?embedded=true' width='100%' height='1100' frameborder='0' marginheight='0' marginwidth='0'>Loading…</iframe>",
+      "allowCookies": true,
+      "blockClass": "sandboxForm"
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "vtex.menu@2.x:menu#Footermenu": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menuFooter"
+    },
+    "children": [
+      "menu-item#fale-conosco",
+      "menu-item#politica-de-frete",
+      "menu-item#seguranca",
+      "menu-item#troca-e-devolucao",
+      "menu-item#quem-somos",
+      "menu-item#politica",
+      "menu-item#selos",
+      "menu-item#duvidas"
+    ]
+  },
+  "menu-item#fale-conosco": {
+    "props": {
+      "id": "menu-item-fale-conosco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "Fale Conosco",
+        "text": "Fale Conosco"
+      }
+    }
+  },
+  "menu-item#politica-de-frete": {
+    "props": {
+      "id": "menu-item-politica-de-frete",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-frete",
+        "noFollow": false,
+        "tagTitle": "Política de Frete",
+        "text": "Política de Frete"
+      }
+    }
+  },
+  "menu-item#seguranca": {
+    "props": {
+      "id": "menu-item-seguranca",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/seguranca",
+        "noFollow": false,
+        "tagTitle": "Segurança",
+        "text": "Segurança"
+      }
+    }
+  },
+  "menu-item#troca-e-devolucao": {
+    "props": {
+      "id": "menu-item-troca-e-devolucao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/troca-e-devolucao",
+        "noFollow": false,
+        "tagTitle": "Troca e Devolução",
+        "text": "Troca e Devolução"
+      }
+    }
+  },
+  "menu-item#fale-conosco": {
+    "props": {
+      "id": "menu-item-fale-conosco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "Fale Conosco",
+        "text": "Fale Conosco"
+      }
+    }
+  },
+  "menu-item#listas-prontas": {
+    "props": {
+      "id": "menu-item-listas-prontas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/listas-prontas",
+        "noFollow": false,
+        "tagTitle": "Listas Prontas",
+        "text": "Listas Prontas"
+      }
+    }
+  },
+  "menu-item#quem-somos": {
+    "props": {
+      "id": "menu-item-quem-somos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "Quem Somos",
+        "text": "Quem Somos"
+      }
+    }
+  },
+  "menu-item#politica": {
+    "props": {
+      "id": "menu-item-politica",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica",
+        "noFollow": false,
+        "tagTitle": "Política",
+        "text": "Política"
+      }
+    }
+  },
+  "menu-item#selos": {
+    "props": {
+      "id": "menu-item-selos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/selos",
+        "noFollow": false,
+        "tagTitle": "Selos",
+        "text": "Selos"
+      }
+    }
+  },
+  "menu-item#duvidas": {
+    "props": {
+      "id": "menu-item-duvidas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/duvidas",
+        "noFollow": false,
+        "tagTitle": "Dúvidas",
+        "text": "Dúvidas"
+      }
+    }
+  }
+}

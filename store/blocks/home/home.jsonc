@@ -1,0 +1,160 @@
+{
+  "store.home": {
+    "blocks": [
+      "carousel#home",
+      "flex-layout.row#deals",
+      "shelf#home1",
+      "flex-layout.row#banners-home",
+      "shelf#home2",
+      "flex-layout.row#banners-home-full",
+      "shelf#home3"
+    ]
+  },
+  "carousel#home": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ],
+      "height": 560,
+      "showArrows": true,
+      "showDots": true
+    }
+  },
+  "shelf#home1": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "skusFilter": "FIRST_AVAILABLE",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "NOVIDADES"
+      }
+    }
+  },
+  "shelf#home2": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "skusFilter": "FIRST_AVAILABLE",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "MAIS VENDIDOS"
+      }
+    }
+  },
+  "shelf#home3": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "skusFilter": "FIRST_AVAILABLE",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "OFERTAS"
+      }
+    }
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "product-summary-image": {
+    "props": {
+      "showBadge": true
+    }
+  },
+  "product-summary-buy-button": {
+    "props": {
+      "buyButtonText": "Comprar"
+    }
+  },
+  "product-summary-price": {
+    "props": {
+      "showLabels": true
+    }
+  },
+  "flex-layout.row#banners-home":{
+    "children": [
+      "flex-layout.col#banner-home1",
+      "flex-layout.col#banner-home2",
+      "flex-layout.col#banner-home3"
+    ]
+  },
+  "flex-layout.col#banner-home1":{
+    "children": [
+      "image#banner-home1"
+    ]
+  },
+  "flex-layout.col#banner-home2":{
+    "children": [
+      "image#banner-home2"
+    ]
+  },
+  "flex-layout.col#banner-home3":{
+    "children": [
+      "image#banner-home3"
+    ]
+  },
+  "image#banner-home1":{
+    "props": {
+      "src": "https://belavidanatural.vteximg.com.br/arquivos/bannerhome1.jpg"
+    }
+  },
+  "image#banner-home2":{
+    "props": {
+      "src": "https://belavidanatural.vteximg.com.br/arquivos/bannerhome3.jpg"
+    }
+  },
+  "image#banner-home3":{
+    "props": {
+      "src": "https://belavidanatural.vteximg.com.br/arquivos/bannerhome2.jpg"
+    }
+  },
+  "flex-layout.row#banners-home-full":{
+    "children": [
+      "flex-layout.col#banner-home4"
+    ]
+  },
+  "flex-layout.col#banner-home4":{
+    "children": [
+      "carousel#banner-home4"
+    ]
+  },
+  "carousel#banner-home4": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image":"https://belavidanatural.vteximg.com.br/arquivos/bannerhome4.jpg",
+          "mobileImage":"https://belavidanatural.vteximg.com.br/arquivos/bannerhome4.jpg"
+        }
+      ],
+      "height": 385,
+      "showArrows": false,
+      "showDots": false
+    }
+  }
+}

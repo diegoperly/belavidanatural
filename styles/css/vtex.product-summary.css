@@ -1,0 +1,6 @@
+.buyButton{
+    width:50%;
+}
+.buyButton :global(.vtex-button){
+    text-transform:capitalize;
+}
