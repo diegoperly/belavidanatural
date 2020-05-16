@@ -72,15 +72,6 @@
       }
     }
   },
-  "product-summary.shelf": {
-    "children": [
-      "product-summary-image",
-      "product-summary-name",
-      "product-summary-space",
-      "product-summary-price",
-      "product-summary-buy-button"
-    ]
-  },
   "product-summary-image": {
     "props": {
       "showBadge": true

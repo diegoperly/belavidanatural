@@ -40,11 +40,21 @@
     "vtex.stack-layout": "0.x",
     "vtex.product-specification-badges": "0.x",
     "vtex.product-review-interfaces": "1.x",
+    "vtex.reviews-and-ratings": "1.x",
     "vtex.telemarketing": "2.x",
     "vtex.order-placed": "1.x",
-    "vtex.category-menu": "2.x",
-    "vtex.sandbox": "0.x",
-    "vtex.modal": "0.x"
+    "vtex.checkout-summary": "0.x",
+    "vtex.product-list": "0.x",
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.product-bookmark-interfaces": "1.x",
+    "vtex.slider-layout": "0.x",
+    "vtex.store-image": "0.x",
+    "vtex.store-icons": "0.x",
+    "vtex.modal-layout": "0.x",
+    "vtex.store-link": "0.x",
+    "vtex.product-gifts": "0.x",
+    "vtex.product-price": "1.x",
+    "vtex.sandbox": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
