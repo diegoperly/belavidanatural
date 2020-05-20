@@ -5,7 +5,8 @@
   text-transform:uppercase;
 }
 .strong--deals{
-  color: inherit;
+  color: #5b5b5b;
+  font-weight:normal;
 }
 .strong--deals:hover{
   color: #4447a2;
