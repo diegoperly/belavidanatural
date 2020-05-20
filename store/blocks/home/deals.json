@@ -39,7 +39,7 @@
   },
   "rich-text#deal1": {
     "props": {
-      "text": "FRETE GRÁTIS<br><span>Consulte</span>",
+      "text": "**FRETE GRÁTIS<br>Consulte**",
       "blockClass": "deals"
     }
   },
@@ -73,7 +73,7 @@
   },
   "rich-text#deal2": {
     "props": {
-      "text": "Compra Segura<br> 3x sem juros",
+      "text": "Compra Segura<br>3x sem juros",
       "blockClass": "deals"
     }
   },

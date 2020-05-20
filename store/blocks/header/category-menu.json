@@ -228,7 +228,8 @@
         "noFollow": true,
         "tagTitle": "TODOS OS DEPARTAMENTOS",
         "text": "TODOS OS DEPARTAMENTOS"
-      }
+      },
+      "blockClass": "todos-dept"
     },
     "blocks": [
       "vtex.menu@2.x:submenu#todos-departamentos"

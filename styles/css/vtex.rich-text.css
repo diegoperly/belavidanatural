@@ -4,12 +4,12 @@
   justify-content: center;
   text-transform:uppercase;
 }
-/* .paragraph--deals a{
+.strong--deals{
   color: inherit;
 }
-.paragraph--deals a:hover{
+.strong--deals:hover{
   color: #4447a2;
-} */
+}
 .paragraph{
   line-height:1;
 }
@@ -115,10 +115,9 @@
   justify-content: center;
 }
 
-/* .paragraph--institucional-text
-{
+.paragraph--institucional-text{
   text-align: center;
-} */
+}
 
 @media only screen and (min-width: 640px) {
   .container--question .strong {
@@ -141,10 +140,10 @@
     line-height: 1.3em;
   }
 
-  /* .paragraph--bt-whatsapp a{
+  .paragraph--bt-whatsapp{
     width: 80px;
     height: 80px;
     bottom: 50px;
     right: 25px;
-  } */
+  }
 }
