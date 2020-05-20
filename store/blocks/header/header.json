@@ -123,5 +123,12 @@
     "props": {
       "sticky": true
     }
+  },
+
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
   }
 }

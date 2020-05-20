@@ -70,5 +70,10 @@
 
   "store.product-review-form": {
     "blocks": ["product-review-form"]
+  },
+
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
   }
+
 }

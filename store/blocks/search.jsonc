@@ -63,15 +63,18 @@
 
   "search-result-layout.desktop": {
     "children": [
-      "flex-layout.row#searchbread",
-      "carousel#department-banner",
-      "flex-layout.row#searchtitle",
-      "flex-layout.row#result",
-      "rich-text#department-description"
+      "flex-layout.row#did-you-mean",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#banner-one",
+      "flex-layout.row#result"
     ],
     "props": {
       "pagination": "show-more",
-      "preventRouteChange": true
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
     }
   },
   "flex-layout.row#searchbread": {
@@ -144,16 +147,14 @@
 
   "search-result-layout.mobile": {
     "children": [
-      "carousel#department-banner",
-      "flex-layout.row#searchinfomobile",
-      "flex-layout.row#searchbread",
-      "flex-layout.row#productCountMobile",
-      "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore",
-      "rich-text#department-description"
+      "flex-layout.row#did-you-mean",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#banner-one",
+      "flex-layout.row#result"
     ],
     "props": {
       "pagination": "show-more",
+      "preventRouteChange": true,
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"
@@ -246,6 +247,24 @@
     "props": {
       "text": "",
       "blockClass": "department-description"
+    }
+  },
+
+  "flex-layout.row#did-you-mean": {
+    "children": ["did-you-mean"]
+  },
+  "flex-layout.row#suggestion": {
+    "children": ["search-suggestions"]
+  },
+  "flex-layout.row#banner-one": {
+    "children": ["search-banner#one"]
+  },
+
+  "search-banner#one": {
+    "props": {
+      "area": "one",
+      "blockClass": "myBanner",
+      "horizontalAlignment": "center"
     }
   }
   
