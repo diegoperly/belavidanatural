@@ -17,6 +17,6 @@
   padding: 10px 0px;
   background-color: #ffffff;
 }
-.headerStickyRow--main-header + .headerStickyRow--main-header .headerRowContentContainer--main-header{
+/* .headerStickyRow--main-header + .headerStickyRow--main-header .headerRowContentContainer--main-header{
   background: #f0f0f0;
-}
+} */

@@ -15,10 +15,10 @@
 .searchBarContainer{
   max-width:660px !important;
 }
-.searchBarIcon svg{
+/* .searchBarIcon svg{
   fill: #3f419f;
   color: #3f419f;
-}
+} */
 .label {
   color: #fff;
   font-size: 26px;
@@ -78,9 +78,9 @@
   display: none;
 }
 
-:global(.render-route-store-orderplaced) :global(.vtex-store-header-2-x-headerRowContainer--josiel__ebit){
+/* :global(.render-route-store-orderplaced) :global(.vtex-store-header-2-x-headerRowContainer--josiel__ebit){
   display: block;
-}
+} */
 
 @media only screen and (min-width: 640px) {
   .label {

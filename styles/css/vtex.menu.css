@@ -1,16 +1,16 @@
 .menuContainer--mainMenu .menuItem .styledLinkContainer{
     width:90px;
 }
-.menuContainer--mainMenu .menuItem:last-child .styledLinkContainer:global(.mh6):global(.pv5){
+/* .menuContainer--mainMenu .menuItem:last-child .styledLinkContainer:global(.mh6):global(.pv5){
     min-height: 64px;
-}
+} 
 .menuContainer--mainMenu .menuItem .styledLinkContainer .styledLink :global(.nowrap){
     white-space:initial;
     text-align:center;
 }
 .menuContainer--mainMenu .menuItem:first-child .styledLinkContainer .styledLink :global(.nowrap){
     text-align:left;
-}
+}*/
 .submenu {
     justify-content: left;
     width: 300px;
@@ -29,7 +29,7 @@
     border-top:1px solid #ccc;
     padding:5px 0;
 }
-.menuContainer--mainMenu .submenuContainer :global(.b--muted-3){
+/* .menuContainer--mainMenu .submenuContainer :global(.b--muted-3){
     padding:0;
     border:0;
 }
@@ -47,17 +47,18 @@
 }
 .menuContainer--mainMenu > .menuItem:hover > .styledLinkContainer > a{
     color: #3f419f;
-}
+} */
 .submenu .menuContainerNav{
     border: 1px solid #f0f0f0;
 }
 .submenu .menuContainerNav .menuItem{
     padding: .5rem 0;
 }
+/*
 .menuContainerNav .menuItem a:hover{
     color: #3f419f;
 }
 .menuContainer--mainMenu .menuItem:nth-last-child(-n+3) .submenuContainer > div{
     left: auto;
     right: 0;
-}
+} */

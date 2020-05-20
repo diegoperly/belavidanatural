@@ -4,12 +4,12 @@
   justify-content: center;
   text-transform:uppercase;
 }
-.paragraph--deals a{
+/* .paragraph--deals a{
   color: inherit;
 }
 .paragraph--deals a:hover{
   color: #4447a2;
-}
+} */
 .paragraph{
   line-height:1;
 }
@@ -91,7 +91,7 @@
   font-weight: 700;
 }
 
-.paragraph--footer-security img{
+/* .paragraph--footer-security img{
   display: inline-block;
   max-width: 150px;
   vertical-align: middle;
@@ -108,10 +108,9 @@
 }
 .paragraph--notification-bar a{
   color: inherit;
-}
+} */
 
-.container--institucional-title
-{
+.container--institucional-title{
   justify-content: center;
 }
 
@@ -141,10 +140,10 @@
     line-height: 1.3em;
   }
 
-  .paragraph--bt-whatsapp a{
+  /* .paragraph--bt-whatsapp a{
     width: 80px;
     height: 80px;
     bottom: 50px;
     right: 25px;
-  }
+  } */
 }
