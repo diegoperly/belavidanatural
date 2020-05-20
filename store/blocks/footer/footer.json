@@ -80,7 +80,9 @@
   "flex-layout.col#col-footer-3":{
     "children":[
       "rich-text#footer-6",
-      "image#payment-methods"
+      "image#payment-methods",
+      "rich-text#footer-9",
+      "social-networks"
     ]
   },
   "rich-text#footer-6":{
@@ -93,12 +95,18 @@
       "src": "https://belavidanatural.vteximg.com.br/arquivos/footer3.jpg"
     }
   },
+  "rich-text#footer-9":{
+    "props": {
+      "text": "**REDES SOCIAIS**"
+    }
+  },
 
   "flex-layout.col#col-footer-4":{
     "children":[
       "rich-text#footer-7",
-      "rich-text#security",
-      "social-networks"
+      "rich-text#security-1",
+      "rich-text#security-2",
+      "rich-text#security-3"
     ]
   },
   "rich-text#footer-7":{
@@ -106,9 +114,21 @@
       "text": "**SEGURANÇA**"
     }
   },
-  "rich-text#security":{
+  "rich-text#security-1":{
     "props": {
-      "text": "[![Ebit](https://newimgebit-a.akamaihd.net/ebitBR/selo/img_25621.png)](http://www.ebit.com.br/Bela-Vida-Natural/selo) [![Safe Browsing Google](https://belavidanatural.vteximg.com.br/arquivos/footer-safeBrowsing.png)](https://www.google.com/transparencyreport/safebrowsing/diagnostic/index.html#url=www.belavidanatural.com.br) ![Lets Encrypt](https://belavidanatural.vteximg.com.br/arquivos/footer-letsEncrypt.png)",
+      "text": "[![Ebit](https://newimgebit-a.akamaihd.net/ebitBR/selo/img_25621.png)](http://www.ebit.com.br/Bela-Vida-Natural/selo)",
+      "blockClass": "footer-security"
+    }
+  },
+  "rich-text#security-2":{
+    "props": {
+      "text": "[![Safe Browsing Google](https://belavidanatural.vteximg.com.br/arquivos/footer-safeBrowsing.png)](https://www.google.com/transparencyreport/safebrowsing/diagnostic/index.html#url=www.belavidanatural.com.br)",
+      "blockClass": "footer-security"
+    }
+  },
+  "rich-text#security-3":{
+    "props": {
+      "text": "![Lets Encrypt](https://belavidanatural.vteximg.com.br/arquivos/footer-letsEncrypt.png)",
       "blockClass": "footer-security"
     }
   },
@@ -236,7 +256,9 @@
   "flex-layout.col#footer-5-mobile":{
     "children":[
       "rich-text#footer-7",
-      "rich-text#security"
+      "rich-text#security-1",
+      "rich-text#security-2",
+      "rich-text#security-3"
     ]
   },
   "flex-layout.row#6-footer-mobile":{

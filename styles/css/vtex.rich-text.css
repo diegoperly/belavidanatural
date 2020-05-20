@@ -91,14 +91,14 @@
   font-weight: 700;
 }
 
-/* .paragraph--footer-security img{
+.container--footer-security{
   display: inline-block;
   max-width: 150px;
   vertical-align: middle;
   margin-right: 1rem;
 }
 
-.paragraph--bt-whatsapp a{
+.paragraph--bt-whatsapp{
   width: 42px;
   height: 42px;
   bottom: 1rem;
@@ -106,9 +106,10 @@
   position: fixed;
   z-index: 99999;
 }
-.paragraph--notification-bar a{
-  color: inherit;
-} */
+.strong--notification-bar{
+  color: #fff;
+  text-decoration:none;
+}
 
 .container--institucional-title{
   justify-content: center;
