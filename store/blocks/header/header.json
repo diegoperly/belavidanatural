@@ -54,8 +54,7 @@
       "vtex.menu@2.x:menu#category-menu"
     ],
     "props": {
-      "sticky": true,
-      "blockClass": "main-header"
+      "sticky": true
     }
   },
   "logo#desktop": {
