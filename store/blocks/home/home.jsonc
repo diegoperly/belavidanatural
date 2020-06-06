@@ -1,82 +1,130 @@
 {
   "store.home": {
     "blocks": [
-      "carousel#home",
+      "list-context.image-list#demo",
       "flex-layout.row#deals",
-      "shelf#home1",
+      "rich-text#shelf-title1",
+      "flex-layout.row#shelf1",
       "flex-layout.row#banners-home",
-      "shelf#home2",
-      "flex-layout.row#banners-home-full",
-      "shelf#home3"
+      "rich-text#shelf-title2",
+      "flex-layout.row#shelf2",
+      "flex-layout.row#banners-home-full"
     ]
   },
-  "carousel#home": {
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
     "props": {
-      "autoplay": false,
-      "banners": [
+      "height": 560,
+      "images": [
         {
           "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         }
-      ],
-      "height": 560,
-      "showArrows": true,
-      "showDots": true
+      ]
     }
   },
-  "shelf#home1": {
-    "blocks": ["product-summary.shelf"],
+  "slider-layout#demo-images": {
     "props": {
-      "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "desktopOnly",
-      "skusFilter": "FIRST_AVAILABLE",
-      "productList": {
-        "maxItems": 10,
-        "itemsPerPage": 5,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": "NOVIDADES"
-      }
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
     }
+  },
+
+  "shelf#home1": {
+    "blocks": ["product-summary.shelf"]
   },
   "shelf#home2": {
+    "blocks": ["product-summary.shelf"]
+  },
+
+  "rich-text#shelf-title1": {
+    "props": {
+      "text": "## Novidades",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "flex-layout.row#shelf1": {
+    "children": ["list-context.product-list#shelf-home1"]
+  },
+  "list-context.product-list#shelf-home1": {
     "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products1"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "desktopOnly",
-      "skusFilter": "FIRST_AVAILABLE",
-      "productList": {
-        "maxItems": 10,
-        "itemsPerPage": 5,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": "MAIS VENDIDOS"
-      }
+      "orderBy": "OrderByTopSaleDESC"
     }
   },
-  "shelf#home3": {
+  "slider-layout#demo-products1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "rich-text#shelf-title2": {
+    "props": {
+      "text": "## Mais Vendidos",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "flex-layout.row#shelf2": {
+    "children": ["list-context.product-list#shelf-home2"]
+  },
+  "list-context.product-list#shelf-home2": {
     "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products2"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "desktopOnly",
-      "skusFilter": "FIRST_AVAILABLE",
-      "productList": {
-        "maxItems": 10,
-        "itemsPerPage": 5,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": "OFERTAS"
-      }
+      "orderBy": "OrderByTopSaleDESC"
     }
   },
-  "product-summary-image": {
+  "slider-layout#demo-products2": {
     "props": {
-      "showBadge": true
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
     }
   },
+
+  // "shelf#home3": {
+  //   "blocks": ["product-summary.shelf"],
+  //   "props": {
+  //     "orderBy": "OrderByTopSaleDESC",
+  //     "paginationDotsVisibility": "desktopOnly",
+  //     "skusFilter": "FIRST_AVAILABLE",
+  //     "productList": {
+  //       "maxItems": 10,
+  //       "itemsPerPage": 5,
+  //       "minItemsPerPage": 1,
+  //       "scroll": "BY_PAGE",
+  //       "arrows": true,
+  //       "titleText": "OFERTAS"
+  //     }
+  //   }
+  // },
+
   "product-summary-buy-button": {
     "props": {
       "buyButtonText": "Comprar"

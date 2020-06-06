@@ -1,534 +1,1802 @@
 {
   "vtex.menu@2.x:menu#category-menu-mobile": {
     "children": [
-      "menu-item#alimentos-naturais-mobile",
-      "menu-item#argila-medicinal-mobile",
-      "menu-item#cosmeticos-naturais-mobile",
-      "menu-item#difusor-de-aroma-mobile",
-      "menu-item#oleos-essenciais-mobile",
-      "menu-item#oleos-vegetais-mobile",
-      "menu-item#pedras-cristais-mobile",
-      "menu-item#marcas"
+      "menu-item#mobile-1",
+      "menu-item#mobile-2",
+      "menu-item#mobile-3",
+      "menu-item#mobile-4",
+      "menu-item#mobile-5",
+      "menu-item#mobile-6",
+      "menu-item#mobile-7",
+      "menu-item#mobile-8"
     ],
     "props": {
       "orientation": "vertical",
       "blockClass": "category-menu-mobile"
     }
   },
-  "menu-item#alimentos-naturais-mobile": {
+  "menu-item#mobile-1": {
     "props": {
-      "id": "menu-item-alimentos-naturais-mobile",
+      "id": "menu-item-mobile-1",
       "type": "custom",
       "iconId": null,
-      "highlight": true,
+      "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/alimentos-naturais",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Alimentos Naturais",
-        "text": "Alimentos Naturais"
+        "tagTitle": "Mobile 1",
+        "text": "Mobile 1"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu.accordion#alimentos-naturais-mobile"
+      "vtex.menu@2.x:submenu.accordion#mobile-1"
     ]
   },
-  "vtex.menu@2.x:submenu.accordion#alimentos-naturais-mobile": {
-    "children": [
-      "vtex.menu@2.x:menu#alimentos-naturais"
-    ]
-  },
-  "menu-item#argila-medicinal-mobile": {
+  "vtex.menu@2.x:submenu.accordion#mobile-1": {
     "props": {
-      "id": "menu-item-argila-medicinal-mobile",
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-1"
+    ]
+  },
+  "flex-layout.row#mobile-1":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-1"
+    ]
+  },
+  "flex-layout.col#mobile-1":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desktop-1-1",
+      "vtex.menu@2.x:menu#desktop-1-2",
+      "vtex.menu@2.x:menu#desktop-1-3"
+    ]
+  },  
+  
+  "menu-item#mobile-2": {
+    "props": {
+      "id": "menu-item-mobile-2",
       "type": "custom",
       "iconId": null,
-      "highlight": true,
+      "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/argila-medicinal",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Argila Medicinal",
-        "text": "Argila Medicinal"
+        "tagTitle": "Mobile 2",
+        "text": "Mobile 2"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu.accordion#argila-medicinal-mobile"
+      "vtex.menu@2.x:submenu.accordion#mobile-2"
     ]
   },
-  "vtex.menu@2.x:submenu.accordion#argila-medicinal-mobile": {
-    "children": [
-      "vtex.menu@2.x:menu#argila-medicinal"
-    ]
-  },
-  "menu-item#cosmeticos-naturais-mobile": {
+  "vtex.menu@2.x:submenu.accordion#mobile-2": {
     "props": {
-      "id": "menu-item-cosmeticos-naturais-mobile",
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-2"
+    ]
+  },
+  "flex-layout.row#mobile-2":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-2"
+    ]
+  },
+  "flex-layout.col#mobile-2":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desktop-2-1",
+      "vtex.menu@2.x:menu#desktop-2-2",
+      "vtex.menu@2.x:menu#desktop-2-3"
+    ]
+  },
+  
+  "menu-item#mobile-3": {
+    "props": {
+      "id": "menu-item-mobile-3",
       "type": "custom",
       "iconId": null,
-      "highlight": true,
+      "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/cosmeticos-naturais",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Cosméticos Naturais",
-        "text": "Cosméticos Naturais"
+        "tagTitle": "Mobile 3",
+        "text": "Mobile 3"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu.accordion#cosmeticos-naturais-mobile"
+      "vtex.menu@2.x:submenu.accordion#mobile-3"
     ]
   },
-  "vtex.menu@2.x:submenu.accordion#cosmeticos-naturais-mobile": {
-    "children": [
-      "vtex.menu@2.x:menu#cosmeticos-naturais"
-    ]
-  },
-  "menu-item#difusor-de-aroma-mobile": {
+  "vtex.menu@2.x:submenu.accordion#mobile-3": {
     "props": {
-      "id": "menu-item-difusor-de-aroma-mobile",
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-3"
+    ]
+  },
+  "flex-layout.row#mobile-3":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-3"
+    ]
+  },
+  "flex-layout.col#mobile-3":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desktop-3-1",
+      "vtex.menu@2.x:menu#desktop-3-2",
+      "vtex.menu@2.x:menu#desktop-3-3"
+    ]
+  },  
+  "menu-item#mobile-4": {
+    "props": {
+      "id": "menu-item-mobile-4",
       "type": "custom",
       "iconId": null,
-      "highlight": true,
+      "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/difusor-de-aroma",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Difusor de Aroma",
-        "text": "Difusor de Aroma"
+        "tagTitle": "Mobile 4",
+        "text": "Mobile 4"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu.accordion#difusor-de-aroma-mobile"
+      "vtex.menu@2.x:submenu.accordion#mobile-4"
     ]
   },
-  "vtex.menu@2.x:submenu.accordion#difusor-de-aroma-mobile": {
-    "children": [
-      "vtex.menu@2.x:menu#difusor-de-aroma"
-    ]
-  },
-  "menu-item#oleos-essenciais-mobile": {
+  "vtex.menu@2.x:submenu.accordion#mobile-4": {
     "props": {
-      "id": "menu-item-oleos-essenciais-mobile",
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-4"
+    ]
+  },
+  "flex-layout.row#mobile-4":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-4"
+    ]
+  },
+  "flex-layout.col#mobile-4":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desktop-4-1",
+      "vtex.menu@2.x:menu#desktop-4-2",
+      "vtex.menu@2.x:menu#desktop-4-3"
+    ]
+  },
+  "menu-item#mobile-5": {
+    "props": {
+      "id": "menu-item-mobile-5",
       "type": "custom",
       "iconId": null,
-      "highlight": true,
+      "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/oleos-essenciais",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Óleos Essenciais",
-        "text": "Óleos Essenciais"
+        "tagTitle": "Mobile 5",
+        "text": "Mobile 5"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu.accordion#oleos-essenciais-mobile"
+      "vtex.menu@2.x:submenu.accordion#mobile-5"
     ]
   },
-  "vtex.menu@2.x:submenu.accordion#oleos-essenciais-mobile": {
-    "children": [
-      "vtex.menu@2.x:menu#oleos-essenciais"
-    ]
-  },
-  "menu-item#oleos-vegetais-mobile": {
+  "vtex.menu@2.x:submenu.accordion#mobile-5": {
     "props": {
-      "id": "menu-item-oleos-vegetais-mobile",
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-5"
+    ]
+  },
+  "flex-layout.row#mobile-5":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-5"
+    ]
+  },
+  "flex-layout.col#mobile-5":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desktop-5-1",
+      "vtex.menu@2.x:menu#desktop-5-2",
+      "vtex.menu@2.x:menu#desktop-5-3"
+    ]
+  },  
+  "menu-item#mobile-6": {
+    "props": {
+      "id": "menu-item-mobile-6",
       "type": "custom",
       "iconId": null,
-      "highlight": true,
+      "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/oleos-vegetais",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Óleos Vegetais",
-        "text": "Óleos Vegetais"
+        "tagTitle": "Mobile 6",
+        "text": "Mobile 6"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu.accordion#oleos-vegetais-mobile"
+      "vtex.menu@2.x:submenu.accordion#mobile-6"
     ]
   },
-  "vtex.menu@2.x:submenu.accordion#oleos-vegetais-mobile": {
-    "children": [
-      "vtex.menu@2.x:menu#oleos-vegetais"
-    ]
-  },
-  "menu-item#pedras-cristais-mobile": {
+  "vtex.menu@2.x:submenu.accordion#mobile-6": {
     "props": {
-      "id": "menu-item-pedras-cristais-mobile",
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-6"
+    ]
+  },
+  "flex-layout.row#mobile-6":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-6"
+    ]
+  },
+  "flex-layout.col#mobile-6":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desktop-6-1",
+      "vtex.menu@2.x:menu#desktop-6-2",
+      "vtex.menu@2.x:menu#desktop-6-3"
+    ]
+  },  
+  "menu-item#mobile-7": {
+    "props": {
+      "id": "menu-item-mobile-7",
       "type": "custom",
       "iconId": null,
-      "highlight": true,
+      "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/pedras-e-cristais",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Pedras e Cristais",
-        "text": "Pedras e Cristais"
+        "tagTitle": "Mobile 7",
+        "text": "Mobile 7"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu.accordion#pedras-cristais-mobile"
+      "vtex.menu@2.x:submenu.accordion#mobile-7"
     ]
   },
-  "vtex.menu@2.x:submenu.accordion#pedras-cristais-mobile": {
-    "children": [
-      "vtex.menu@2.x:menu#pedras-cristais"
-    ]
-  },
-  "menu-item#marcas": {
+  "vtex.menu@2.x:submenu.accordion#mobile-7": {
     "props": {
-      "id": "menu-item-marcas",
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-7"
+    ]
+  },
+  "flex-layout.row#mobile-7":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-7"
+    ]
+  },
+  "flex-layout.col#mobile-7":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#desktop-7-1",
+      "vtex.menu@2.x:menu#desktop-7-2",
+      "vtex.menu@2.x:menu#desktop-7-3"
+    ]
+  }, 
+  "menu-item#mobile-8": {
+    "props": {
+      "id": "menu-item-mobile-8",
       "type": "custom",
       "iconId": null,
-      "highlight": true,
+      "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/marcas",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Marcas",
-        "text": "Marcas"
+        "tagTitle": "Mobile 8",
+        "text": "Mobile 8"
       }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu.accordion#marcas"
-    ]
+    }
   },
-  "vtex.menu@2.x:submenu.accordion#marcas": {
-    "children": [
-      "vtex.menu@2.x:menu#marcas"
-    ]
-  },
+
 
   "vtex.menu@2.x:menu#category-menu": {
     "children": [
-      "menu-item#todos-departamentos",
-      "menu-item#alimentos-naturais",
-      "menu-item#argila-medicinal",
-      "menu-item#cosmeticos-naturais",
-      "menu-item#difusor-de-aroma",
-      "menu-item#oleos-essenciais",
-      "menu-item#oleos-vegetais",
-      "menu-item#pedras-cristais",
-      "menu-item#marcas"
+      "menu-item#desktop-1",
+      "menu-item#desktop-2",
+      "menu-item#desktop-3",
+      "menu-item#desktop-4",
+      "menu-item#desktop-5",
+      "menu-item#desktop-6",
+      "menu-item#desktop-7",
+      "menu-item#desktop-8"
+
     ],
     "props": {
       "blockClass": "mainMenu"
     }
   },
-  "menu-item#todos-departamentos": {
+
+  "menu-item#desktop-1": {
     "props": {
-      "id": "menu-item-todos-departamentos",
+      "id": "menu-item-desktop-1",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "",
+        "href": "/",
         "noFollow": true,
-        "tagTitle": "TODOS OS DEPARTAMENTOS",
-        "text": "TODOS OS DEPARTAMENTOS"
+        "tagTitle": "Desktop 1",
+        "text": "Desktop 1"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop-1"
+    ]
+  },
+  "vtex.menu@2.x:submenu#desktop-1": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#desktop-1"
+    ]
+  },
+  "flex-layout.row#desktop-1":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.col#desktop-1-1",
+      "flex-layout.col#desktop-1-2",
+      "flex-layout.col#desktop-1-3",
+      "flex-layout.col#desktop-1-4"
+    ]
+  },
+  "flex-layout.col#desktop-1-1":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-1-1"
+    ]
+  },
+  "flex-layout.col#desktop-1-2":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-1-2"
+    ]
+  },
+  "flex-layout.col#desktop-1-3":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-1-3"
+    ]
+  },
+  "flex-layout.col#desktop-1-4":{
+    "children":[
+      "image#desktop-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#desktop-1-1": {
+    "children": [
+      "rich-text#titulo-1-1",
+      "menu-item#desktop-1-1-1",
+      "menu-item#desktop-1-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#desktop-1-2": {
+    "children": [
+      "rich-text#titulo-1-2",
+      "menu-item#desktop-1-2-1",
+      "menu-item#desktop-1-2-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#desktop-1-3": {
+    "children": [
+      "rich-text#titulo-1-3",
+      "menu-item#desktop-1-3-1",
+      "menu-item#desktop-1-3-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "rich-text#titulo-1-1": {
+    "props": {
+      "text": "### Título 1 1",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-1-1-1": {
+    "props": {
+      "id": "menu-item-desktop-1-1-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 1 1 1",
+        "text": "Desktop 1 1 1"
+      }
+    }
+  },
+  "menu-item#desktop-1-1-2": {
+    "props": {
+      "id": "menu-item-desktop-1-1-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 1 1 2",
+        "text": "Desktop 1 1 2"
+      }
+    }
+  },
+  "rich-text#titulo-1-2": {
+    "props": {
+      "text": "### Título 1 2",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-1-2-1": {
+    "props": {
+      "id": "menu-item-desktop-1-2-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 1 2 1",
+        "text": "Desktop 1 2 1"
+      }
+    }
+  },
+  "menu-item#desktop-1-2-2": {
+    "props": {
+      "id": "menu-item-desktop-1-2-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 1 2 2",
+        "text": "Desktop 1 2 2"
+      }
+    }
+  },
+  "rich-text#titulo-1-3": {
+    "props": {
+      "text": "### Título 1 3",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-1-3-1": {
+    "props": {
+      "id": "menu-item-desktop-1-3-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 1 3 1",
+        "text": "Desktop 1 3 1"
+      }
+    }
+  },
+  "menu-item#desktop-1-3-2": {
+    "props": {
+      "id": "menu-item-desktop-1-3-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 1 3 2",
+        "text": "Desktop 1 3 2"
+      }
+    }
+  },
+  "image#desktop-1":{
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "maxHeight": "",
+      "maxWidth": ""
+    }
+  },
+  
+  "menu-item#desktop-2": {
+    "props": {
+      "id": "menu-item-desktop-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 2",
+        "text": "Desktop 2"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop-2"
+    ]
+  },
+  "vtex.menu@2.x:submenu#desktop-2": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#desktop-2"
+    ]
+  },
+  "flex-layout.row#desktop-2": {
+    "children": [
+      "flex-layout.col#desktop-2-1",
+      "flex-layout.col#desktop-2-2",
+      "flex-layout.col#desktop-2-3",
+      "flex-layout.col#desktop-2-4"
+    ]
+  },
+  "flex-layout.col#desktop-2-1":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-2-1"
+    ]
+  },
+  "flex-layout.col#desktop-2-2":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-2-2"
+    ]
+  },
+  "flex-layout.col#desktop-2-3":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-2-3"
+    ]
+  },
+  "flex-layout.col#desktop-2-4":{
+    "children":[
+      "image#desktop-2"
+    ]
+  },
+  "vtex.menu@2.x:menu#desktop-2-1": {
+    "children": [
+      "rich-text#titulo-2-1",
+      "menu-item#desktop-2-1-1",
+      "menu-item#desktop-2-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#desktop-2-2": {
+    "children": [
+      "rich-text#titulo-2-2",
+      "menu-item#desktop-2-2-1",
+      "menu-item#desktop-2-2-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#desktop-2-3": {
+    "children": [
+      "rich-text#titulo-2-3",
+      "menu-item#desktop-2-3-1",
+      "menu-item#desktop-2-3-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "rich-text#titulo-2-1": {
+    "props": {
+      "text": "### Título 2 1",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-2-1-1": {
+    "props": {
+      "id": "menu-item-desktop-2-1-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 2 1 1",
+        "text": "Desktop 2 1 1"
+      }
+    }
+  },
+  "menu-item#desktop-2-1-2": {
+    "props": {
+      "id": "menu-item-desktop-2-1-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 2 1 2",
+        "text": "Desktop 2 1 2"
+      }
+    }
+  },
+  "rich-text#titulo-2-2": {
+    "props": {
+      "text": "### Título 2 2",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-2-2-1": {
+    "props": {
+      "id": "menu-item-desktop-2-2-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 2 2 1",
+        "text": "Desktop 2 2 1"
+      }
+    }
+  },
+  "menu-item#desktop-2-2-2": {
+    "props": {
+      "id": "menu-item-desktop-2-2-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 2 2 2",
+        "text": "Desktop 2 2 2"
+      }
+    }
+  },
+  "rich-text#titulo-2-3": {
+    "props": {
+      "text": "### Título 2 3",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-2-3-1": {
+    "props": {
+      "id": "menu-item-desktop-2-3-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 2 3 1",
+        "text": "Desktop 2 3 1"
+      }
+    }
+  },
+  "menu-item#desktop-2-3-2": {
+    "props": {
+      "id": "menu-item-desktop-2-3-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 2 3 2",
+        "text": "Desktop 2 3 2"
+      }
+    }
+  },
+  "image#desktop-2":{
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "maxHeight": "",
+      "maxWidth": ""
+    }
+  },
+
+  "menu-item#desktop-3": {
+    "props": {
+      "id": "menu-item-desktop-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 3",
+        "text": "Desktop 3"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop-3"
+    ]
+  },
+  "vtex.menu@2.x:submenu#desktop-3": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#desktop-3"
+    ]
+  },
+  "flex-layout.row#desktop-3": {
+    "children": [
+      "flex-layout.col#desktop-3-1",
+      "flex-layout.col#desktop-3-2",
+      "flex-layout.col#desktop-3-3",
+      "flex-layout.col#desktop-3-4"
+    ]
+  },
+  "flex-layout.col#desktop-3-1":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-3-1"
+    ]
+  },
+  "flex-layout.col#desktop-3-2":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-3-2"
+    ]
+  },
+  "flex-layout.col#desktop-3-3":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-3-3"
+    ]
+  },
+  "flex-layout.col#desktop-3-4":{
+    "children":[
+      "image#desktop-3"
+    ]
+  },
+  "vtex.menu@2.x:menu#desktop-3-1": {
+    "children": [
+      "rich-text#titulo-3-1",
+      "menu-item#desktop-3-1-1",
+      "menu-item#desktop-3-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#desktop-3-2": {
+    "children": [
+      "rich-text#titulo-3-2",
+      "menu-item#desktop-3-2-1",
+      "menu-item#desktop-3-2-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#desktop-3-3": {
+    "children": [
+      "rich-text#titulo-3-3",
+      "menu-item#desktop-3-3-1",
+      "menu-item#desktop-3-3-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "rich-text#titulo-3-1": {
+    "props": {
+      "text": "### Título 3 1",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-3-1-1": {
+    "props": {
+      "id": "menu-item-desktop-3-1-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 3 1 1",
+        "text": "Desktop 3 1 1"
+      }
+    }
+  },
+  "menu-item#desktop-3-1-2": {
+    "props": {
+      "id": "menu-item-desktop-3-1-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 3 1 2",
+        "text": "Desktop 3 1 2"
+      }
+    }
+  },
+  "rich-text#titulo-3-2": {
+    "props": {
+      "text": "### Título 3 2",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-3-2-1": {
+    "props": {
+      "id": "menu-item-desktop-3-2-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 3 2 1",
+        "text": "Desktop 3 2 1"
+      }
+    }
+  },
+  "menu-item#desktop-3-2-2": {
+    "props": {
+      "id": "menu-item-desktop-3-2-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 3 2 2",
+        "text": "Desktop 3 2 2"
+      }
+    }
+  },
+  "rich-text#titulo-3-3": {
+    "props": {
+      "text": "### Título 3 3",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-3-3-1": {
+    "props": {
+      "id": "menu-item-desktop-3-3-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 3 3 1",
+        "text": "Desktop 3 3 1"
+      }
+    }
+  },
+  "menu-item#desktop-3-3-2": {
+    "props": {
+      "id": "menu-item-desktop-3-3-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 3 3 2",
+        "text": "Desktop 3 3 2"
+      }
+    }
+  },
+  "image#desktop-3":{
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "maxHeight": "",
+      "maxWidth": ""
+    }
+  },
+  
+  "menu-item#desktop-4": {
+    "props": {
+      "id": "menu-item-desktop-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 4",
+        "text": "Desktop 4"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop-4"
+    ]
+  },
+  "vtex.menu@2.x:submenu#desktop-4": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#desktop-4"
+    ]
+  },
+  "flex-layout.row#desktop-4": {
+    "children": [
+      "flex-layout.col#desktop-4-1",
+      "flex-layout.col#desktop-4-2",
+      "flex-layout.col#desktop-4-3",
+      "flex-layout.col#desktop-4-4"
+    ]
+  },
+  "flex-layout.col#desktop-4-1":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-4-1"
+    ]
+  },
+  "flex-layout.col#desktop-4-2":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-4-2"
+    ]
+  },
+  "flex-layout.col#desktop-4-3":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-4-3"
+    ]
+  },
+  "flex-layout.col#desktop-4-4":{
+    "children":[
+      "image#desktop-4"
+    ]
+  },
+  "vtex.menu@2.x:menu#desktop-4-1": {
+    "children": [
+      "rich-text#titulo-4-1",
+      "menu-item#desktop-4-1-1",
+      "menu-item#desktop-4-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#desktop-4-2": {
+    "children": [
+      "rich-text#titulo-4-2",
+      "menu-item#desktop-4-2-1",
+      "menu-item#desktop-4-2-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#desktop-4-3": {
+    "children": [
+      "rich-text#titulo-4-3",
+      "menu-item#desktop-4-3-1",
+      "menu-item#desktop-4-3-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "rich-text#titulo-4-1": {
+    "props": {
+      "text": "### Título 4 1",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-4-1-1": {
+    "props": {
+      "id": "menu-item-desktop-4-1-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 4 1 1",
+        "text": "Desktop 4 1 1"
+      }
+    }
+  },
+  "menu-item#desktop-4-1-2": {
+    "props": {
+      "id": "menu-item-desktop-4-1-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 4 1 2",
+        "text": "Desktop 4 1 2"
+      }
+    }
+  },
+  "rich-text#titulo-4-2": {
+    "props": {
+      "text": "### Título 4 2",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-4-2-1": {
+    "props": {
+      "id": "menu-item-desktop-4-2-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 4 2 1",
+        "text": "Desktop 4 2 1"
+      }
+    }
+  },
+  "menu-item#desktop-4-2-2": {
+    "props": {
+      "id": "menu-item-desktop-4-2-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 4 2 2",
+        "text": "Desktop 4 2 2"
+      }
+    }
+  },
+  "rich-text#titulo-4-3": {
+    "props": {
+      "text": "### Título 4 3",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-4-3-1": {
+    "props": {
+      "id": "menu-item-desktop-4-3-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 4 3 1",
+        "text": "Desktop 4 3 1"
+      }
+    }
+  },
+  "menu-item#desktop-4-3-2": {
+    "props": {
+      "id": "menu-item-desktop-4-3-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 4 3 2",
+        "text": "Desktop 4 3 2"
+      }
+    }
+  },
+  "image#desktop-4":{
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "maxHeight": "",
+      "maxWidth": ""
+    }
+  },
+
+  "menu-item#desktop-5": {
+    "props": {
+      "id": "menu-item-desktop-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 5",
+        "text": "Desktop 5"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop-5"
+    ]
+  },
+  "vtex.menu@2.x:submenu#desktop-5": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#desktop-5"
+    ]
+  },
+  "flex-layout.row#desktop-5": {
+    "children": [
+      "flex-layout.col#desktop-5-1",
+      "flex-layout.col#desktop-5-2",
+      "flex-layout.col#desktop-5-3",
+      "flex-layout.col#desktop-5-4"
+    ]
+  },
+  "flex-layout.col#desktop-5-1":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-5-1"
+    ]
+  },
+  "flex-layout.col#desktop-5-2":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-5-2"
+    ]
+  },
+  "flex-layout.col#desktop-5-3":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-5-3"
+    ]
+  },
+  "flex-layout.col#desktop-5-4":{
+    "children":[
+      "image#desktop-5"
+    ]
+  },
+  "vtex.menu@2.x:menu#desktop-5-1": {
+    "children": [
+      "rich-text#titulo-5-1",
+      "menu-item#desktop-5-1-1",
+      "menu-item#desktop-5-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#desktop-5-2": {
+    "children": [
+      "rich-text#titulo-5-2",
+      "menu-item#desktop-5-2-1",
+      "menu-item#desktop-5-2-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#desktop-5-3": {
+    "children": [
+      "rich-text#titulo-5-3",
+      "menu-item#desktop-5-3-1",
+      "menu-item#desktop-5-3-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "rich-text#titulo-5-1": {
+    "props": {
+      "text": "### Título 5 1",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-5-1-1": {
+    "props": {
+      "id": "menu-item-desktop-5-1-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 5 1 1",
+        "text": "Desktop 5 1 1"
+      }
+    }
+  },
+  "menu-item#desktop-5-1-2": {
+    "props": {
+      "id": "menu-item-desktop-5-1-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 5 1 2",
+        "text": "Desktop 5 1 2"
+      }
+    }
+  },
+  "rich-text#titulo-5-2": {
+    "props": {
+      "text": "### Título 5 2",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-5-2-1": {
+    "props": {
+      "id": "menu-item-desktop-5-2-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 5 2 1",
+        "text": "Desktop 5 2 1"
+      }
+    }
+  },
+  "menu-item#desktop-5-2-2": {
+    "props": {
+      "id": "menu-item-desktop-5-2-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 5 2 2",
+        "text": "Desktop 5 2 2"
+      }
+    }
+  },
+  "rich-text#titulo-5-3": {
+    "props": {
+      "text": "### Título 5 3",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-5-3-1": {
+    "props": {
+      "id": "menu-item-desktop-5-3-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 5 3 1",
+        "text": "Desktop 5 3 1"
+      }
+    }
+  },
+  "menu-item#desktop-5-3-2": {
+    "props": {
+      "id": "menu-item-desktop-5-3-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 5 3 2",
+        "text": "Desktop 5 3 2"
+      }
+    }
+  },
+  "image#desktop-5":{
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "maxHeight": "",
+      "maxWidth": ""
+    }
+  },
+  
+  "menu-item#desktop-6": {
+    "props": {
+      "id": "menu-item-desktop-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 6",
+        "text": "Desktop 6"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop-6"
+    ]
+  },
+  "vtex.menu@2.x:submenu#desktop-6": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#desktop-6"
+    ]
+  },
+  "flex-layout.row#desktop-6": {
+    "children": [
+      "flex-layout.col#desktop-6-1",
+      "flex-layout.col#desktop-6-2",
+      "flex-layout.col#desktop-6-3",
+      "flex-layout.col#desktop-6-4"
+    ]
+  },
+  "flex-layout.col#desktop-6-1":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-6-1"
+    ]
+  },
+  "flex-layout.col#desktop-6-2":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-6-2"
+    ]
+  },
+  "flex-layout.col#desktop-6-3":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-6-3"
+    ]
+  },
+  "flex-layout.col#desktop-6-4":{
+    "children":[
+      "image#desktop-6"
+    ]
+  },
+  "vtex.menu@2.x:menu#desktop-6-1": {
+    "children": [
+      "rich-text#titulo-6-1",
+      "menu-item#desktop-6-1-1",
+      "menu-item#desktop-6-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#desktop-6-2": {
+    "children": [
+      "rich-text#titulo-6-2",
+      "menu-item#desktop-6-2-1",
+      "menu-item#desktop-6-2-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#desktop-6-3": {
+    "children": [
+      "rich-text#titulo-6-3",
+      "menu-item#desktop-6-3-1",
+      "menu-item#desktop-6-3-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "rich-text#titulo-6-1": {
+    "props": {
+      "text": "### Título 6 1",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-6-1-1": {
+    "props": {
+      "id": "menu-item-desktop-6-1-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 6 1 1",
+        "text": "Desktop 6 1 1"
+      }
+    }
+  },
+  "menu-item#desktop-6-1-2": {
+    "props": {
+      "id": "menu-item-desktop-6-1-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 6 1 2",
+        "text": "Desktop 6 1 2"
+      }
+    }
+  },
+  "rich-text#titulo-6-2": {
+    "props": {
+      "text": "### Título 6 2",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-6-2-1": {
+    "props": {
+      "id": "menu-item-desktop-6-2-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 6 2 1",
+        "text": "Desktop 6 2 1"
+      }
+    }
+  },
+  "menu-item#desktop-6-2-2": {
+    "props": {
+      "id": "menu-item-desktop-6-2-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 6 2 2",
+        "text": "Desktop 6 2 2"
+      }
+    }
+  },
+  "rich-text#titulo-6-3": {
+    "props": {
+      "text": "### Título 6 3",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-6-3-1": {
+    "props": {
+      "id": "menu-item-desktop-6-3-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 6 3 1",
+        "text": "Desktop 6 3 1"
+      }
+    }
+  },
+  "menu-item#desktop-6-3-2": {
+    "props": {
+      "id": "menu-item-desktop-6-3-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 6 3 2",
+        "text": "Desktop 6 3 2"
+      }
+    }
+  },
+  "image#desktop-6":{
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "maxHeight": "",
+      "maxWidth": ""
+    }
+  },
+
+  "menu-item#desktop-7": {
+    "props": {
+      "id": "menu-item-desktop-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 7",
+        "text": "Desktop 7"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop-7"
+    ]
+  },
+  "vtex.menu@2.x:submenu#desktop-7": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#desktop-7"
+    ]
+  },
+  "flex-layout.row#desktop-7": {
+    "children": [
+      "flex-layout.col#desktop-7-1",
+      "flex-layout.col#desktop-7-2",
+      "flex-layout.col#desktop-7-3",
+      "flex-layout.col#desktop-7-4"
+    ]
+  },
+  "flex-layout.col#desktop-7-1":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-7-1"
+    ]
+  },
+  "flex-layout.col#desktop-7-2":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-7-2"
+    ]
+  },
+  "flex-layout.col#desktop-7-3":{
+    "children":[
+      "vtex.menu@2.x:menu#desktop-7-3"
+    ]
+  },
+  "flex-layout.col#desktop-7-4":{
+    "children":[
+      "image#desktop-7"
+    ]
+  },
+  "vtex.menu@2.x:menu#desktop-7-1": {
+    "children": [
+      "rich-text#titulo-7-1",
+      "menu-item#desktop-7-1-1",
+      "menu-item#desktop-7-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#desktop-7-2": {
+    "children": [
+      "rich-text#titulo-7-2",
+      "menu-item#desktop-7-2-1",
+      "menu-item#desktop-7-2-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#desktop-7-3": {
+    "children": [
+      "rich-text#titulo-7-3",
+      "menu-item#desktop-7-3-1",
+      "menu-item#desktop-7-3-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "rich-text#titulo-7-1": {
+    "props": {
+      "text": "### Título 7 1",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-7-1-1": {
+    "props": {
+      "id": "menu-item-desktop-7-1-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 7 1 1",
+        "text": "Desktop 7 1 1"
+      }
+    }
+  },
+  "menu-item#desktop-7-1-2": {
+    "props": {
+      "id": "menu-item-desktop-7-1-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 7 1 2",
+        "text": "Desktop 7 1 2"
+      }
+    }
+  },
+  "rich-text#titulo-7-2": {
+    "props": {
+      "text": "### Título 7 2",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-7-2-1": {
+    "props": {
+      "id": "menu-item-desktop-7-2-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 7 2 1",
+        "text": "Desktop 7 2 1"
+      }
+    }
+  },
+  "menu-item#desktop-7-2-2": {
+    "props": {
+      "id": "menu-item-desktop-7-2-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 7 2 2",
+        "text": "Desktop 7 2 2"
+      }
+    }
+  },
+  "rich-text#titulo-7-3": {
+    "props": {
+      "text": "### Título 7 3",
+      "blockClass": "menu-title"
+    }
+  },
+  "menu-item#desktop-7-3-1": {
+    "props": {
+      "id": "menu-item-desktop-7-3-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 7 3 1",
+        "text": "Desktop 7 3 1"
+      }
+    }
+  },
+  "menu-item#desktop-7-3-2": {
+    "props": {
+      "id": "menu-item-desktop-7-3-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Desktop 7 3 2",
+        "text": "Desktop 7 3 2"
+      }
+    }
+  },
+  "image#desktop-7":{
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "maxHeight": "",
+      "maxWidth": ""
+    }
+  },
+
+  "menu-item#desktop-8": {
+    "props": {
+      "id": "menu-item-desktop-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "OFERTAS",
+        "text": "OFERTAS"
       },
-      "blockClass": "todos-dept"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#todos-departamentos"
-    ]
-  },
-  "vtex.menu@2.x:submenu#todos-departamentos": {
-    "props": {
-      "width": "auto",
-      "orientation": "vertical"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#todos-departamentos"
-    ]
-  },
-  "vtex.menu@2.x:menu#todos-departamentos": {
-    "children": [],
-    "props": {
-      "width": "auto",
-      "orientation": "vertical"
+      "blockClass":"menu-oferta"
     }
-  },
-
-  "menu-item#alimentos-naturais": {
-    "props": {
-      "id": "menu-item-alimentos-naturais",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/alimentos-naturais",
-        "noFollow": true,
-        "tagTitle": "Alimentos Naturais",
-        "text": "Alimentos Naturais"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#alimentos-naturais"
-    ]
-  },
-  "vtex.menu@2.x:submenu#alimentos-naturais": {
-    "props": {
-      "width": "auto",
-      "orientation": "vertical"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#alimentos-naturais"
-    ]
-  },
-  "vtex.menu@2.x:menu#alimentos-naturais": {
-    "children": [],
-    "props": {
-      "width": "auto",
-      "orientation": "vertical"
-    }
-  },
-  
-  "menu-item#argila-medicinal": {
-    "props": {
-      "id": "menu-item-argila-medicinal",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/argila-medicinal",
-        "noFollow": true,
-        "tagTitle": "Argila Medicinal",
-        "text": "Argila Medicinal"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#argila-medicinal"
-    ]
-  },
-  "vtex.menu@2.x:submenu#argila-medicinal": {
-    "props": {
-      "width": "auto",
-      "orientation": "vertical"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#argila-medicinal"
-    ]
-  },
-  "vtex.menu@2.x:menu#argila-medicinal": {
-    "children": [],
-    "props": {
-      "width": "auto",
-      "orientation": "vertical"
-    }
-  },
-
-  "menu-item#cosmeticos-naturais": {
-    "props": {
-      "id": "menu-item-cosmeticos-naturais",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/cosmeticos-naturais",
-        "noFollow": true,
-        "tagTitle": "Cosméticos Naturais",
-        "text": "Cosméticos Naturais"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#cosmeticos-naturais"
-    ]
-  },
-  "vtex.menu@2.x:submenu#cosmeticos-naturais": {
-    "props": {
-      "width": "auto",
-      "orientation": "vertical"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#cosmeticos-naturais"
-    ]
-  },
-  "vtex.menu@2.x:menu#cosmeticos-naturais": {
-    "children": [],
-    "props": {
-      "width": "auto",
-      "orientation": "vertical"
-    }
-  },
-  
-  "menu-item#difusor-de-aroma": {
-    "props": {
-      "id": "menu-item-difusor-de-aroma",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/difusor-de-aroma",
-        "noFollow": true,
-        "tagTitle": "Difusor de Aroma",
-        "text": "Difusor de Aroma"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#difusor-de-aroma"
-    ]
-  },
-  "vtex.menu@2.x:submenu#difusor-de-aroma": {
-    "props": {
-      "width": "auto",
-      "orientation": "vertical"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#difusor-de-aroma"
-    ]
-  },
-  "vtex.menu@2.x:menu#difusor-de-aroma": {
-    "children": [],
-    "props": {
-      "width": "auto",
-      "orientation": "vertical"
-    }
-  },
-
-  "menu-item#oleos-essenciais": {
-    "props": {
-      "id": "menu-item-oleos-essenciais",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/oleos-essenciais",
-        "noFollow": true,
-        "tagTitle": "Óleos Essenciais",
-        "text": "Óleos Essenciais"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#oleos-essenciais"
-    ]
-  },
-  "vtex.menu@2.x:submenu#oleos-essenciais": {
-    "props": {
-      "width": "auto",
-      "orientation": "vertical"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#oleos-essenciais"
-    ]
-  },
-  "vtex.menu@2.x:menu#oleos-essenciais": {
-    "children": [],
-    "props": {
-      "width": "auto",
-      "orientation": "vertical"
-    }
-  },
-  
-  "menu-item#oleos-vegetais": {
-    "props": {
-      "id": "menu-item-oleos-vegetais",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/oleos-vegetais",
-        "noFollow": true,
-        "tagTitle": "Óleos Vegetais",
-        "text": "Óleos Vegetais"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#oleos-vegetais"
-    ]
-  },
-  "vtex.menu@2.x:submenu#oleos-vegetais": {
-    "props": {
-      "width": "auto",
-      "orientation": "vertical"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#oleos-vegetais"
-    ]
-  },
-  "vtex.menu@2.x:menu#oleos-vegetais": {
-    "props": {
-      "width": "auto",
-      "orientation": "vertical"
-    },
-    "children": []
-  },
-
-  "menu-item#pedras-cristais": {
-    "props": {
-      "id": "menu-item-pedras-cristais",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/pedras-e-cristais",
-        "noFollow": true,
-        "tagTitle": "Pedras e Cristais",
-        "text": "Pedras e Cristais"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#pedras-cristais"
-    ]
-  },
-  "vtex.menu@2.x:submenu#pedras-cristais": {
-    "props": {
-      "width": "auto",
-      "orientation": "vertical"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#pedras-cristais"
-    ]
-  },
-  "vtex.menu@2.x:menu#pedras-cristais": {
-    "props": {
-      "width": "auto",
-      "orientation": "vertical"
-    },
-    "children": []
-  },
-
-  "menu-item#marcas": {
-    "props": {
-      "id": "menu-item-marcas",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/marcas",
-        "noFollow": true,
-        "tagTitle": "Marcas",
-        "text": "Marcas"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#marcas"
-    ]
-  },
-  "vtex.menu@2.x:submenu#marcas": {
-    "props": {
-      "width": "auto",
-      "orientation": "vertical"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#marcas"
-    ]
-  },
-  "vtex.menu@2.x:menu#marcas": {
-    "props": {
-      "width": "auto",
-      "orientation": "vertical"
-    },
-    "children": []
   }
 }

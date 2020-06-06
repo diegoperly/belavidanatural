@@ -30,7 +30,7 @@
   },
   "rich-text#notification.bar": {
     "props": {
-      "text": "**Frete Grátis Brasil** REGRAS AQUI | Motoboy São Paulo",
+      "text": "**Frete Grátis para todo o Brasil** Veja as REGRAS AQUI | Entrega via motoboy na cidade de São Paulo",
       "textColor": "c-on-emphasis",
       "blockClass":"notification-bar"
     }
@@ -42,7 +42,7 @@
       "search-bar",
       "header-spacer",
       "login",
-      "minicart"
+      "minicart.v2"
     ],
     "props": {
       "sticky": true,
@@ -66,23 +66,6 @@
     }
   },
 
-  "minicart": {
-    "blocks": [
-      "product-summary"
-    ],
-    "props": {
-      "type": "sidebar",
-      "showRemoveButton": true,
-      "showDiscount": true,
-      "showSku": true,
-      "labelMiniCartEmpty": "",
-      "labelButtonFinishShopping": "Ir para o Carrinho",
-      "enableQuantitySelector": true,
-      "maxQuantity": 10,
-      "labelClasses": "gray"
-    }
-  },
-
   "header-layout.mobile": {
     "children": [
       "header-row#1-mobile",
@@ -95,7 +78,7 @@
       "logo#mobile",
       "header-spacer",
       "login",
-      "minicart"
+      "minicart.v2"
     ],
     "props": {
       "sticky": true,

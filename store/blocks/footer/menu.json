@@ -75,21 +75,6 @@
       }
     }
   },
-  "menu-item#fale-conosco": {
-    "props": {
-      "id": "menu-item-fale-conosco",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/fale-conosco",
-        "noFollow": false,
-        "tagTitle": "Fale Conosco",
-        "text": "Fale Conosco"
-      }
-    }
-  },
   "menu-item#listas-prontas": {
     "props": {
       "id": "menu-item-listas-prontas",

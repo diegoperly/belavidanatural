@@ -4,6 +4,17 @@
   justify-content: center;
   text-transform:uppercase;
 }
+
+.container--shelfTitle {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
 .strong--deals{
   color: #5b5b5b;
   font-weight:normal;
@@ -103,7 +114,7 @@
   width: 42px;
   height: 42px;
   bottom: 1rem;
-  right: 1rem;
+  left: 1rem;
   position: fixed;
   z-index: 99999;
 }
@@ -118,6 +129,14 @@
 
 .paragraph--institucional-text{
   text-align: center;
+}
+
+.wrapper--menu-title .heading-level-3{
+  font-size:.75em;
+  text-transform:uppercase;
+  color:#03044e;
+  padding:.5em;
+  margin:0;
 }
 
 @media only screen and (min-width: 640px) {
@@ -145,6 +164,6 @@
     width: 80px;
     height: 80px;
     bottom: 50px;
-    right: 25px;
+    left: 25px;
   }
 }

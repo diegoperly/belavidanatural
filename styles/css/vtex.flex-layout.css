@@ -40,3 +40,7 @@
 .flexCol--switcherMobileCol {
   width: 20%;
 }
+
+.flexRow--menu-mobile{
+  width:90%;
+}

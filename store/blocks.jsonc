@@ -39,24 +39,44 @@
       "showPasswordVerificationIntoTooltip": true
     }
   },
+  "product-price": {
+    "props": {
+      "showSavings": true,
+      "showInstallments": true
+    }
+  },
 
   "product-summary.shelf": {
     "children": [
-      "product-summary-add-to-list-button",
       "stack-layout#prodsum",
       "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
-      "product-summary-price",
-      "product-summary-buy-button"
+      "product-list-price#summary",
+      "flex-layout.row#selling-price-savings",
+      "product-installments#summary",
+      "add-to-cart-button"
     ]
+  },
+
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 300
+    }
   },
 
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image",
-      "product-summary-specification-badges"
+      "modal-trigger#quickview"
     ]
+  },
+  "product-summary-image": {
+    "props": {
+      "height": 220
+    }
   },
 
   "product-summary-specification-badges": {
@@ -71,9 +91,20 @@
   "store.product-review-form": {
     "blocks": ["product-review-form"]
   },
+  "store.not-found#product": {
+    "blocks": ["rich-text#not-found"]
+  },
+  "rich-text#not-found": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**PAGE NOT FOUND**",
+      "font": "t-heading-1"
+    }
+  },
 
-  "autocomplete-result-list.v2": {
-    "blocks": ["product-summary"]
+  "store.not-found#search": {
+    "blocks": ["rich-text#not-found"]
   }
 
 }
