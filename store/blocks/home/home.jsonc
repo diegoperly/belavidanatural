@@ -132,7 +132,7 @@
   },
   "product-summary-price": {
     "props": {
-      "showLabels": true
+      "showLabels": false
     }
   },
   "flex-layout.row#banners-home":{

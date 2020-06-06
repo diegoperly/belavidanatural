@@ -2,11 +2,14 @@
     color: #727273;
     margin-bottom: .25rem;
     font-size: 1rem;
+    text-align:left;
+    padding: 0 .3em;
   }
   
   .sellingPrice {
     color: #3f3f40;
     font-size: 1.25rem;
+    padding: 0 .3em;
   }
   
   .sellingPriceValue {
@@ -17,6 +20,8 @@
   .installments {
     color: #727273;
     margin-bottom: 1rem;
+    text-align:left;
+    padding: 0 .3em;
   }
   
   .savings {
@@ -35,6 +40,7 @@
     border-radius: 1000px;
     align-items: center;
     display: flex;
+    color:#fff;
   }
   
   .savings-discount--summary {

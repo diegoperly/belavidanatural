@@ -10,4 +10,11 @@
 }
 .productNameContainer{
     padding:0 .3em;
+    text-align:left;
+}
+.brandName{
+    font-weight:bold;
+}
+.element{
+    padding-bottom:0;
 }
