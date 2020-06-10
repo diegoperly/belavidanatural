@@ -40,12 +40,12 @@
 .menuContainer--mainMenu .menuItem .styledLinkContainer .styledLink .styledLinkContent{
     text-align:left;
     text-transform:uppercase;
-    font-size:0.7em;
+    font-size:0.9em;
     font-weight:bold;
 }
 .menuContainer--mainMenu .submenu .menuItem .styledLinkContainer .styledLink .styledLinkContent{
     text-transform:none;
-    font-size:0.8em;
+    font-size:0.9em;
     font-weight:normal;
 }
 .submenu .styledLinkContainer,
