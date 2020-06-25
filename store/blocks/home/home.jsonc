@@ -5,6 +5,7 @@
       "flex-layout.row#deals",
       "rich-text#shelf-title1",
       "flex-layout.row#shelf1",
+      "rich-text#shelf-title3",
       "flex-layout.row#banners-home",
       "rich-text#shelf-title2",
       "flex-layout.row#shelf2",
@@ -37,7 +38,11 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "blockClass": "carousel",
+      "autoplay": {
+        "timeout": 6000,
+        "stopOnHover": true
+      }
     }
   },
 
@@ -75,6 +80,13 @@
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf"
+    }
+  },
+
+  "rich-text#shelf-title3":{
+    "props": {
+      "text": "## Para Profissionais:",
+      "blockClass": "shelfTitle"
     }
   },
 

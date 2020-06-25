@@ -13,7 +13,6 @@
   },
   "header-layout.desktop": {
     "children": [
-      "header-row#1-desktop",
       "header-row#2-desktop",
       "header-row#3-desktop"
     ]
@@ -30,7 +29,7 @@
   },
   "rich-text#notification.bar": {
     "props": {
-      "text": "**Frete Grátis para todo o Brasil** Veja as REGRAS AQUI | Entrega via motoboy na cidade de São Paulo",
+      "text": "**Estamos realizando entregas normalmente!**",
       "textColor": "c-on-emphasis",
       "blockClass":"notification-bar"
     }
@@ -41,6 +40,7 @@
       "header-spacer",
       "search-bar",
       "header-spacer",
+      "rich-text#notification.bar",
       "login",
       "minicart.v2"
     ],
@@ -54,7 +54,8 @@
       "vtex.menu@2.x:menu#category-menu"
     ],
     "props": {
-      "sticky": true
+      "sticky": true,
+      "blockClass": "main-menu"
     }
   },
   "logo#desktop": {

@@ -5,16 +5,30 @@
   text-transform:uppercase;
 }
 
-.container--shelfTitle {
+.container--shelfTitle,
+.headingLevel2--description-title{
   color: #727273;
   justify-content: center;
   text-align: center;
 }
 
-.headingLevel2--shelfTitle {
-  font-weight: 200;
+.headingLevel2--shelfTitle,
+.headingLevel2--description-title{
+  font-weight: 600;
+  font-size:2rem;
+  text-transform:uppercase;
 }
-
+.headingLevel2--shelfTitle::after,
+.headingLevel2--description-title::after{
+  content:"";
+  display:block;
+  width:50px;
+  height:5px;
+  background:#0f3e99;
+  margin:0 auto;
+}
+.headingLevel2--description-title{margin:0}
+.wrapper--description-title{width:100%;}
 .strong--deals{
   color: #5b5b5b;
   font-weight:normal;
@@ -29,13 +43,18 @@
   margin:6px;
   min-width:150px;
 }
-.paragraph--notification-bar{
-  line-height:0;
-}
 .container--notification-bar{
   display:block;
-  width:100%;
   text-align:center;
+  background:#00bc93;
+  width:175px;
+  font-size:.8rem;
+  margin:0 10px;
+  border-radius:5px;
+}
+.paragraph--notification-bar{
+  padding:10px;
+  margin:0;
 }
 .container--link {
   justify-content: center;
@@ -132,9 +151,9 @@
 }
 
 .wrapper--menu-title .heading-level-3{
-  font-size:.75em;
+  font-size:.9em;
   text-transform:uppercase;
-  color:#03044e;
+  color:#00bc93;
   padding:.5em;
   margin:0;
 }

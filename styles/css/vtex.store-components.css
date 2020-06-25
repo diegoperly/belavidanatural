@@ -6,14 +6,14 @@
   text-decoration: underline;
 }
 .newsletter{
-  background-color:#3f419f;
+  background-color:#00bc93;
   margin:0 auto;
 }
 .newsletter .container {
   padding:10px;
 }
-.searchBarContainer{
-  max-width:660px !important;
+.searchBarContainer :global(.vtex-input-prefix__group){
+  height:44px !important;
 }
 /* .searchBarIcon svg{
   fill: #3f419f;
@@ -40,12 +40,41 @@
   color: #fff;
   border: none;
 }
-
+.showMoreButton{
+  font-size: 1em;
+  font-weight: 600;
+  padding: 10px 30px;
+  border: 1px solid #0f3e99;
+}
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
   color: #fff;
   font-size: 16px;
 }
-
+.productDescriptionContainer{
+  margin:.5em;
+}
+.productDescriptionTitle{
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+.productDescriptionTitle::after{
+  content:"";
+  display:block;
+  width:50px;
+  height:5px;
+  background:#0f3e99;
+  margin:0 auto;
+}
+.productDescriptionText{
+  padding:.5em 2em;
+  font-size: 14px !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: #777 !important;
+}
 .inputGroup :global(.vtex-button) {
   background-color: transparent;
   color: #fff;
@@ -77,17 +106,44 @@
 :global(.vtex-store-header-2-x-headerRowContainer--josiel__ebit){
   display: none;
 }
+.shippingContainer :global(.vtex-input__label),
+.shippingContainer :global(.vtex-button__label){
+  font-size:0;
+}
+.shippingContainer :global(.vtex-input__label)::before{
+  content:"Digite seu CEP:";
+  display:block;
+  font-size:14px;
+}
+.shippingContainer :global(.vtex-button__label)::before{
+  content:"Simular Frete";
+  display:block;
+  font-size:14px;
+}
+.shippingContainer :global(.vtex-address-form__postalCode){
+  margin-bottom:10px;
+}
 
 /* :global(.render-route-store-orderplaced) :global(.vtex-store-header-2-x-headerRowContainer--josiel__ebit){
   display: block;
 } */
 
 @media only screen and (min-width: 640px) {
+  .searchBarContainer{
+    margin:15px;
+    padding:0;
+    width:685px;
+  }
   .label {
     font-size: 30px;
   }
   .imageElement--storePrint {
     margin-bottom: 0px;
     max-height: 600px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .shippingContainer{
+    width:40%;
   }
 }

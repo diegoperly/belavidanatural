@@ -9,10 +9,10 @@
 }
 .menuContainer--mainMenu .styledLink--menu-oferta{
     color:#fff;
-    background:#0f3e99;
+    background:#00bc93;
 }
 .menuContainer--mainMenu .menuItem:hover{
-    background:#03044e;
+    background:#00bc93;
 }
 .menuContainer--mainMenu .menuItem:hover .styledLink{
     color:#fff;
@@ -47,6 +47,9 @@
     text-transform:none;
     font-size:0.9em;
     font-weight:normal;
+}
+.menuContainer--mainMenu .submenu .menuItem .styledLinkContainer .styledLink:hover .styledLinkContent{
+    text-decoration:underline;
 }
 .submenu .styledLinkContainer,
 .submenu .menuContainerNav,

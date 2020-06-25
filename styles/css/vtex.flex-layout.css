@@ -24,7 +24,14 @@
 .flexCol--productCountCol {
   align-items: flex-start;
 }
-
+.flexCol--diferenciais{
+  border:1px solid #ccc;
+  border-radius:.5em;
+  padding:.5em;
+}
+.flexColChild--diferenciais{
+  text-align:center;
+}
 .flexCol--orderByCol {
   align-items: flex-end;
 }

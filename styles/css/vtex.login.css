@@ -1,6 +1,19 @@
 .label{
     text-transform:capitalize;
     color: #727273;
+    padding:0;
+    font-size:0;
+}
+.label::after{
+    content: "Meus Pedidos";
+    display: inline-block;
+    vertical-align:middle;
+    font-size:.8rem;
+}
+.container :global(.vtex-button__label){
+    padding:5px !important;
+    width:120px;
+    margin:0 10px;
 }
 .profile::before, .label::before, .buttonLink::before{
     content: "";
@@ -8,10 +21,11 @@
     width: 16px;
     height: 20px;
     margin-right: 10px;
+    font-size:.8rem;
     vertical-align: middle;
     background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAMAAACzvE1FAAAATlBMVEUAAAA/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ8/QZ/CfzueAAAAGXRSTlMAtsWJMukH9uTy3tCCdmBdSykoHxKUk2djXS1jVQAAAHpJREFUGNN1kEkSxSAIBQE1aubpD9z/okkhaGWR3nX7NgjCTDHSDEaHLGCnwbHidJAt5DLxXPESthY2EJJ5gsJiYQFlKj5BZXeIbod3/IjDgKNXPZAVPOQ5cyXcozOYSTntsnZf/ww90DMQwC81TX/5j/VDIcZA3/W2C914ELMSdz6bAAAAAElFTkSuQmCC');
 }
-@media only screen and (max-width: 639px) {
+@media only screen and (max-width: 1023px) {
     .label{
         font-size: 0;
         display: block;

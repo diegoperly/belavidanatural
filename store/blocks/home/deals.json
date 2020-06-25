@@ -1,9 +1,10 @@
 {
   "flex-layout.row#deals": {
     "children": [
-      "flex-layout.col#deals2",
       "flex-layout.col#deals1",
-      "flex-layout.col#deals3"
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3",
+      "flex-layout.col#deals4"
     ],
     "props": {
       "blockClass": "deals"
@@ -12,103 +13,50 @@
 
   "flex-layout.col#deals1": {
     "children": [
-      "flex-layout.row#row-icon1"
-    ]
-  },
-  "flex-layout.row#row-icon1":{
-    "children": [
-      "flex-layout.col#col-icon1-1",
-      "flex-layout.col#col-icon1-2"
-    ]
-  },
-  "flex-layout.col#col-icon1-1": {
-    "children": [
       "image#deal1"
-    ]
-  },
-  "flex-layout.col#col-icon1-2":{
-    "children": [
-      "rich-text#deal1"
     ]
   },
   "image#deal1": {
     "props": {
       "src": "https://belavidanatural.vteximg.com.br/arquivos/deal2.png",
-      "maxHeight": "41px"
-    }
-  },
-  "rich-text#deal1": {
-    "props": {
-      "text": "**FRETE GRÁTIS<br>Consulte**",
-      "blockClass": "deals"
+      "maxHeight": "50px"
     }
   },
 
   "flex-layout.col#deals2": {
     "children": [
-      "flex-layout.row#row-icon2"
-    ]
-  },
-  "flex-layout.row#row-icon2":{
-    "children": [
-      "flex-layout.col#col-icon2-1",
-      "flex-layout.col#col-icon2-2"
-    ]
-  },
-  "flex-layout.col#col-icon2-1": {
-    "children": [
       "image#deal2"
-    ]
-  },
-  "flex-layout.col#col-icon2-2": {
-    "children": [
-      "rich-text#deal2"
     ]
   },
   "image#deal2": {
     "props": {
       "src": "https://belavidanatural.vteximg.com.br/arquivos/deal1.png",
-      "maxHeight": "41px"
-    }
-  },
-  "rich-text#deal2": {
-    "props": {
-      "text": "Compra Segura<br>3x sem juros",
-      "blockClass": "deals"
+      "maxHeight": "50px"
     }
   },
 
   "flex-layout.col#deals3": {
     "children": [
-      "flex-layout.row#row-icon3"
-    ]
-  },
-  "flex-layout.row#row-icon3":{
-    "children": [
-      "flex-layout.col#col-icon3-1",
-      "flex-layout.col#col-icon3-2"
-    ]
-  },
-  "flex-layout.col#col-icon3-1": {
-    "children": [
       "image#deal3"
-    ]
-  },
-  "flex-layout.col#col-icon3-2": {
-    "children": [
-      "rich-text#deal3"
     ]
   },
   "image#deal3": {
     "props": {
       "src": "https://belavidanatural.vteximg.com.br/arquivos/deal3.png",
-      "maxHeight": "41px"
+      "maxHeight": "50px"
     }
   },
-  "rich-text#deal3": {
+
+  "flex-layout.col#deals4": {
+    "children": [
+      "image#deal4"
+    ]
+  },
+  "image#deal4": {
     "props": {
-      "text": "Motoboy para<br>São Paulo",
-      "blockClass": "deals"
+      "src": "https://belavidanatural.vteximg.com.br/arquivos/deal4.png",
+      "maxHeight": "50px"
     }
   }
+  
 }

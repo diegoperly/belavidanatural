@@ -12,11 +12,16 @@
   color: #727273;
   font-size: 14px;
 }
-
 .headerRow--main-header-mobile .headerRowBackground {
   padding: 10px 0px;
   background-color: #ffffff;
 }
+.headerStickyRow--main-menu{
+  border-bottom:1px solid #ccc;
+  box-shadow: 0 2px 2px #ccc;
+  z-index:5;
+}
+
 /*.headerStickyRow--main-header{
   z-index:999999;
 }

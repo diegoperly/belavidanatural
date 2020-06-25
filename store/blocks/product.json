@@ -18,12 +18,44 @@
   },
   "flex-layout.row#description": {
     "props": {
-      "marginBottom": 7
+      "marginBottom": 3
     },
     "children": [
+      "flex-layout.col#description1",
+      "flex-layout.col#description2"
+    ]
+  },
+  "flex-layout.col#description1":{
+    "props": {
+      "width": "75%",
+      "colGap": 2
+    },
+    "children":[
       "product-description"
     ]
   },
+  "flex-layout.col#description2":{
+    "props": {
+      "width": "25%",
+      "blockClass":"diferenciais"
+    },
+    "children":[
+      "rich-text#diferenciais1",
+      "rich-text#diferenciais2"
+    ]
+  },
+  "rich-text#diferenciais1": {
+    "props": {
+      "text": "## Diferenciais",
+      "blockClass": "description-title"
+    }
+  },
+  "rich-text#diferenciais2": {
+    "props": {
+      "text": "lorem  Ipsum"
+    }
+  },
+
   "flex-layout.row#product-main": {
     "props": {
       "colGap": 7,
@@ -43,7 +75,8 @@
     "children": [
       "flex-layout.row#product-image",
       "product-bookmark",
-      "product-specification-badges"
+      "product-specification-badges",
+      "share#default"
     ]
   },
   
@@ -97,8 +130,7 @@
       "product-gifts",
       "flex-layout.row#buy-button",
       "availability-subscriber",
-      "shipping-simulator",
-      "share#default"
+      "shipping-simulator"
     ]
   },
 
@@ -143,7 +175,6 @@
       }
     }
   },
-
   "shelf.relatedProducts": {
     "blocks": ["product-summary.shelf"],
     "props": {
