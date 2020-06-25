@@ -77,7 +77,6 @@
     "children": [
       "drawer",
       "logo#mobile",
-      "header-spacer",
       "login",
       "minicart.v2"
     ],
@@ -97,7 +96,7 @@
       "title": "Logo",
       "href": "/",
       "url": "https://belavidanatural.vteximg.com.br/arquivos/belavidanatural.png",
-      "width": "70"
+      "width": "100"
     }
   },
   "header-row#2-mobile": {
