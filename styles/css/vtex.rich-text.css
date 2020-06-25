@@ -150,12 +150,18 @@
   text-align: center;
 }
 
-.wrapper--menu-title .heading-level-3,
-.wrapper--menu-title .heading-level-3 .link--menu-title{
+.wrapper--menu-title .heading-level-3{
   font-size:.9em;
   text-transform:uppercase;
   color:#00bc93;
   padding:.5em;
+  margin:0;
+}
+.wrapper--menu-title .heading-level-3 .link--menu-title{
+  font-size:.9em;
+  text-transform:uppercase;
+  color:#00bc93;
+  text-decoration:none;
   margin:0;
 }
 
