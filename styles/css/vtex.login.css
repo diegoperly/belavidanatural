@@ -29,9 +29,17 @@
         font-size: 0;
         display: block;
     }
-    .buttonLink::before{
+    /*.buttonLink::before{
         margin: 0;
+    }*/
+    
+} 
+@media only screen and (max-width: 640px){
+    .label::before{
+        display: none;
     }
+}
+@media only screen and (min-width:1026px) and (max-width:1294px){
     .label::before{
         display: none;
     }

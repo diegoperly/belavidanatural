@@ -304,7 +304,8 @@
   },
   "rich-text#search-text": {
     "props": {
-      "text": ""
+      "text": "",
+      "blockClass": "search-text"
     }
   }
   
