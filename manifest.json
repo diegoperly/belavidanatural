@@ -1,7 +1,7 @@
 {
   "vendor": "belavidanatural",
   "name": "belavidanatural-theme",
-  "version": "0.0.69",
+  "version": "0.0.70",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
