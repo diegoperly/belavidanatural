@@ -167,6 +167,9 @@
 .container--search-text{
   padding:1rem 2rem;
 }
+.container--banner-ebit{
+  display: none;
+}
 
 @media only screen and (min-width: 640px) {
   .container--question .strong {
