@@ -199,3 +199,13 @@
     left: 25px;
   }
 }
+@media only screen and (max-width: 1023px) {
+  .paragraph--footer{
+    text-align:center;
+  }
+  .wrapper--footer,
+  .paragraph--footer-img,
+  .wrapper--footer-img{
+    width:100%;
+  }
+}

@@ -73,7 +73,8 @@
   },
   "rich-text#footer-5":{
     "props": {
-      "text": "**INSTITUCIONAL**"
+      "text": "**INSTITUCIONAL**",
+      "blockClass": "footer"
     }
   },
 
@@ -87,7 +88,8 @@
   },
   "rich-text#footer-6":{
     "props": {
-      "text": "**FORMAS DE PAGAMENTO**"
+      "text": "**FORMAS DE PAGAMENTO**",
+      "blockClass": "footer"
     }
   },
   "image#payment-methods":{
@@ -111,7 +113,8 @@
   },
   "rich-text#footer-7":{
     "props": {
-      "text": "**SEGURANÇA**"
+      "text": "**SEGURANÇA**",
+      "blockClass": "footer"
     }
   },
   "rich-text#security-1":{

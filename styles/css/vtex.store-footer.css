@@ -25,3 +25,14 @@
 .socialNetworkImage--facebook, .socialNetworkImage--instagram, .socialNetworkImage--twitter, .socialNetworkImage--youtube{
   opacity: 0;
 }
+
+@media only screen and (max-width: 1023px) {
+  .footerLayout{
+    text-align:center;
+  }
+  .socialNetworksContainer,
+  .socialNetworkLink{
+    display:inline-block;
+    margin:10px;
+  }
+}
