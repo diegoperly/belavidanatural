@@ -13,3 +13,12 @@
     color: #727273;
     margin-left: 5px;
 }
+
+.minicartCheckoutButton :global(.vtex-button){
+    font-size:0;
+}
+.minicartCheckoutButton :global(.vtex-button)::after{
+    content:"ir para o carrinho";
+    display:block;
+    font-size:16px;
+}
