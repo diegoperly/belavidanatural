@@ -43,7 +43,7 @@
 .showMoreButton{
   font-size: 1em;
   font-weight: 600;
-  padding: 10px 30px;
+  padding: 5px 30px;
   border: 1px solid #0f3e99;
 }
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
